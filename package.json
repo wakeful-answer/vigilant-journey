@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.6",
+    "three": "^0.108.0",
+    "three-orbitcontrols": "^2.108.1",
+    "vuepress": "^1.1.0"
+  },
+  "devDependencies": {
+    "ignore-loader": "^0.1.2"
+  }
+}
