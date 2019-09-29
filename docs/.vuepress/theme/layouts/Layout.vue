@@ -17,49 +17,81 @@
   </div>
   </transition> -->
   <div class="theme-container">
-
+    <transition name="logo-anim" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+      <div class="subtitle"  v-if="this.$page.frontmatter.home">
+        <h2>FESTIVAL OF </h2>
+        <h2>THE RECENTLY </h2>
+        <h2>POSSIBLE </h2>
+      </div>
+    </transition>
+    <transition name="logo-anim" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
+      <div class="frontpage-logo" v-if="this.$page.frontmatter.home">
+        <img src="wsk-logo.svg" >
+      </div>
+    </transition>
     <Nav />
     <div class="content-container">
-      <transition name="page-anim" enter-active-class="animated fadeInLeft" leave-active-class="animated fadeOut">
+      <transition name="page-anim" enter-active-class="animated fadeInLeft">
         <div class="program-links" v-if="this.$page.frontmatter.programs">
           <ul class="list">
             <li v-for="item in $site.themeConfig.programsNav">
               <router-link :to="item.link" :class=item.class>
                 {{item.text}}
-                <svg class= "big-arrow" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.85 40.85"><defs><style>.cls-1{fill:#fff}</style></defs><title>X</title><path :class=item.text class="cls-1 " d="M6.43 1.84L25 20.43 6.43 39l-4.59-4.57 13.08-13.08.92-.92-.92-.92L1.84 6.43l4.59-4.59m0-1.84L0 6.43l14 14-14 14 6.43 6.42 20.42-20.42L6.43 0z"/></svg>
+                <svg class= "big-arrow" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.85 40.85"><defs><style>.cls-1{fill:#fff}</style></defs><title>X</title><path :class=item.class class="cls-1 " d="M6.43 1.84L25 20.43 6.43 39l-4.59-4.57 13.08-13.08.92-.92-.92-.92L1.84 6.43l4.59-4.59m0-1.84L0 6.43l14 14-14 14 6.43 6.42 20.42-20.42L6.43 0z"/></svg>
               </router-link>
             </li>
           </ul>
         </div>
       </transition>
-      <transition name="page-anim" leave-active-class="animated fadeOut">
+      <transition name="page-anim">
         <div class="page-title" v-if="!this.$page.frontmatter.home && !this.$page.frontmatter.programPage" >
           <h1>{{ this.$page.frontmatter.title }} </h1>
-          <img :src="$withBase('/arrow-down.svg')" alt=""/>
+          <img :src="$withBase('/arrow-down.svg')" />
         </div>
       </transition>
-      <transition name="page-anim" leave-active-class="animated fadeOut">
+      <transition name="page-anim">
         <div v-if="this.$page.frontmatter.programPage">
           <div class="page-title">
             <h1>PROGRAMS</h1>
-            <img :src="$withBase('/arrow-down.svg')" alt=""/>
+            <img :src="$withBase('/arrow-down.svg')" />
           </div>
-          <div class="program-page-title" v-bind:class="this.$page.frontmatter.title">
+          <div class="program-page-title" v-bind:class="this.$page.frontmatter.class">
             {{ this.$page.frontmatter.title }}
-            <svg class= "big-arrow" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.85 40.85"><defs><style>.cls-1{fill:#fff}</style></defs><title>X</title><path class="cls-1" v-bind:class="this.$page.frontmatter.title" d="M6.43 1.84L25 20.43 6.43 39l-4.59-4.57 13.08-13.08.92-.92-.92-.92L1.84 6.43l4.59-4.59m0-1.84L0 6.43l14 14-14 14 6.43 6.42 20.42-20.42L6.43 0z"/></svg>
+            <svg class= "big-arrow" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.85 40.85"><defs><style>.cls-1{fill:#fff}</style></defs><title>X</title><path class="cls-1" v-bind:class="this.$page.frontmatter.class" d="M6.43 1.84L25 20.43 6.43 39l-4.59-4.57 13.08-13.08.92-.92-.92-.92L1.84 6.43l4.59-4.59m0-1.84L0 6.43l14 14-14 14 6.43 6.42 20.42-20.42L6.43 0z"/></svg>
             <div class="date">
               {{ this.$page.frontmatter.date }}
             </div>
           </div>
         </div>
       </transition>
-      <div class="event-container">
-        <div class="event-block">
+      <div class="event-container" v-bind:class="this.$page.frontmatter.class" v-if="this.$page.frontmatter.content && this.$page.frontmatter.content.length">
+        <div class="event-block" v-for="(content, index) in this.$page.frontmatter.content" :key="index">
           <div class="event-description">
-
+            <div class="event-title">
+              <h1>{{ content.title }}</h1>
+            </div>
+            <div class="event-artists" v-for="(artist, index) in content.artists" :key="'artist'+index" >
+              <div class="event-artist">
+                {{ artist }}
+              </div>
+            </div>
+            <div class="event-details">
+              <ul class="list">
+                <li>{{ content.date }}</li>
+                <li>{{ content.time }}</li>
+                <li>{{ content.venue }}</li>
+              </ul>
+            </div>
+            <div class="event-desc" v-for="(p, index) in content.desc" :key="'event'+index">
+            <p>  {{ p }} </p>
+            </div>
           </div>
-          <div class="event-image">
-
+          <div class="event-images" v-for="(image, index) in content.images" :key="'image'+index" >
+            <div class="slider">
+              <div>
+                <img :src="$withBase('/event-images/'+image)" >
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -78,6 +110,7 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import * as dat from 'dat.gui';
 import * as Fragment from '../fragmentshader';
+import { tns } from "tiny-slider/src/tiny-slider";
 import Nav from "@theme/components/Nav";
 import Footer from "@theme/components/Footer";
 export default {
@@ -88,7 +121,8 @@ export default {
       camera: null,
       scene: null,
       renderer: null,
-      mesh: null
+      mesh: null,
+      slider: null
     }
   },
   methods: {
@@ -290,6 +324,15 @@ export default {
   scale: function(num, in_min, in_max, out_min, out_max) {
     return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
   },
+  createSlider: function() {
+    this.slider = tns({
+      container: '.slider',
+      items: 1,
+      navAsThumbnails: true,
+      slideBy: 'page',
+      autoplay: true
+    });
+  },
   resize: function() {
       this.camera.aspect = window.innerWidth / window.innerHeight;
       this.camera.updateProjectionMatrix();
@@ -299,9 +342,16 @@ export default {
     event.preventDefault();
     this.mouse.x = ( event.clientX /  window.innerWidth ) * 2 - 1;
     this.mouse.y = - ( event.clientY /  window.innerHeight ) * 2 + 1;
-  }
+  },
+  handleScroll (event) {
+    //this.isUserScrolling = (window.scrollY > 0);
+  },
+  beforeMount() {
+    this.createSlider();
+  },
   },
   mounted() {
+    window.addEventListener('scroll', this.handleScroll);
     window.addEventListener('resize', this.resize);
     window.addEventListener('mousemove', this.windowMouseMove);
     this.init();

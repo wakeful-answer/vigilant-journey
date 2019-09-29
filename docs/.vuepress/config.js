@@ -8,6 +8,13 @@ module.exports = {
         rel: "stylesheet",
         href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
       }
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+      }
     ]
   ],
   themeConfig: {
