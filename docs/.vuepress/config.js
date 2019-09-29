@@ -2,20 +2,8 @@ module.exports = {
   title: 'WSK X',
   description: 'Festival of the Recently Possible',
   head: [
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-      }
-    ],
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
-      }
-    ]
+    [ "link",{ rel: "stylesheet",href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"}],
+    [ "link",{ rel: "stylesheet",href: "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"}]
   ],
   themeConfig: {
     nav: [
@@ -33,5 +21,11 @@ module.exports = {
       { class:"film-screening", text: "film screening", link: "/film-screening/" },
       { class:"market", text: "market", link: "/market/" }
     ]
+  },
+  plugins: {
+    'clean-urls': {
+      normalSuffix: '',
+      indexSuffix: '',
+    },
   }
 }

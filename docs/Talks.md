@@ -2,6 +2,7 @@
 programPage: true
 title: talks
 class: talks
+date: 16-24 oct
 layout: Layout
 content:
 -

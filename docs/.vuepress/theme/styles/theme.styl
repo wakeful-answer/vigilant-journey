@@ -59,16 +59,14 @@ p
   padding-right 1.5em
 
 .event-images
-  display flex
-  flex-direction column
   min-width 50%
   max-width 50%
-  img
-    width 100%
 
 .event-artists
   color #000
   font-size 10pt
+
+.event-artist
   padding 1em
   display inline-block
   margin 0 1em 1em 0
@@ -193,28 +191,28 @@ p
     color $metallic-green
 
 .concerts
-  .event-artists
+  .event-artist
     background-color $metallic-blue
 .special-programs
-  .event-artists
+  .event-artist
     background-color $metallic-silver
 .market
-  .event-artists
+  .event-artist
     background-color $metallic-brown
 .film-screening
-  .event-artists
+  .event-artist
     background-color $metallic-pink
 .exhibition
-  .event-artists
+  .event-artist
     background-color $metallic-gold
 .residency
-  .event-artists
+  .event-artist
     background-color $copper
 .talks
-  .event-artists
+  .event-artist
     background-color $metallic-blue-green
 .workshops
-  .event-artists
+  .event-artist
     background-color $metallic-green
 
 .nav-bar
@@ -284,3 +282,28 @@ iframe
 
 .nusa-link
   width 70px
+
+.tiny-slider-image, .nav-slider-image
+  overflow hidden
+  position relative
+  img
+    width 100%
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+
+.tiny-slider-image
+  height 300px
+
+.nav-slider-image
+  text-align center
+  height 100px
+  margin-top 1em
+
+.tns-outer
+  display flex
+  flex-direction column-reverse

@@ -7,8 +7,13 @@ layout: Layout
 content:
 -
   title: GANGAN RESIDENCY
+  class: gangan
   artists:
     - Gangan Series
+  images:
+    - gangan-01.jpg
+    - gangan-02.jpg
+  date: October 15-21
   desc:
     - "The Gangan Series Workshop Lab is an improviser-and-composer workshop which explores the potential of graphic scores and playing in medium-to-large ensembles. Graphic scores, with its emphasis on alternative procedures, introduce many possibilities as they leave more room for the performers’ own interpretations while, despite circumventing the constraints classical notation, allowing composers to structure different sonic parameters (e.g. time, volume, pitch, instrumentation, sonority, etc."
 
@@ -16,6 +21,7 @@ content:
     The aim of this program is for every participant — coming from different backgrounds and of varying degrees of musical skill and experience — to individually harness and channel their own heady concepts into the final score."
 -
   title: 'MUSICMAKERS HACKLAB @ WSK SHAPESHIFTERS'
+  class: musicmakers
   artists:
     - Nusasonic
     - WSK
@@ -24,6 +30,7 @@ content:
     - hacklab-01.jpg
     - hacklab-02.jpg
     - hacklab-03.jpg
+  date: October 16-23
   desc:
     - "The MusicMakers Hacklab is an open collaborative laboratory hosted by Peter Kirn of Create Digital Music together with a changing cast of collaborators. It is organized by CTM Festival together with various partners from the fields of culture, music, and technology such as Ableton and Native Instruments. Each MusicMakers Hacklab creates a unique platform for collaboration, knowledge exchange and inspiration, allowing practitioners from a range of disciplines to create and play, and to find new ways of exploring the current and future potentials that lie in interfacing music with technology and other fields of practice."
 

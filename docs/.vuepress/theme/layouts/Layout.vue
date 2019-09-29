@@ -1,21 +1,4 @@
 <template>
-  <!-- <div>{{ this.$site.title }}</div>
-  <div>{{ this.$site.description }}</div> -->
-  <!-- <transition name="page-anim" enter-active-class="animated fadeInDown" leave-active-class="animated fadeOutDown">
-  <div
-    class=""
-    v-if="this.$page.frontmatter.features && this.$page.frontmatter.features.length"
-  >
-    <div
-      class="feature"
-      v-for="(feature, index) in this.$page.frontmatter.features"
-      :key="index"
-    >
-      <h2>{{ feature.title }}</h2>
-      <p>{{ feature.details }}</p>
-    </div>
-  </div>
-  </transition> -->
   <div class="theme-container">
     <transition name="logo-anim" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
       <div class="subtitle"  v-if="this.$page.frontmatter.home">
@@ -70,8 +53,8 @@
             <div class="event-title">
               <h1>{{ content.title }}</h1>
             </div>
-            <div class="event-artists" v-for="(artist, index) in content.artists" :key="'artist'+index" >
-              <div class="event-artist">
+            <div class="event-artists">
+              <div class="event-artist" v-for="(artist, index) in content.artists" :key="'artist'+index" >
                 {{ artist }}
               </div>
             </div>
@@ -82,16 +65,12 @@
                 <li>{{ content.venue }}</li>
               </ul>
             </div>
-            <div class="event-desc" v-for="(p, index) in content.desc" :key="'event'+index">
-            <p>  {{ p }} </p>
+            <div class="event-desc">
+              <p v-for="(p, index) in content.desc" :key="'event'+index">  {{ p }} </p>
             </div>
           </div>
-          <div class="event-images" v-for="(image, index) in content.images" :key="'image'+index" >
-            <div class="slider">
-              <div>
-                <img :src="$withBase('/event-images/'+image)" >
-              </div>
-            </div>
+          <div class="event-images" >
+            <Slider v-bind:name="content.class" v-bind:imageData="content.images" v-if="content.images" ></Slider>
           </div>
         </div>
       </div>
@@ -110,19 +89,18 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import * as dat from 'dat.gui';
 import * as Fragment from '../fragmentshader';
-import { tns } from "tiny-slider/src/tiny-slider";
 import Nav from "@theme/components/Nav";
 import Footer from "@theme/components/Footer";
+import Slider from "@theme/components/Slider";
 export default {
-  components: { Nav, Footer },
+  components: { Nav, Footer, Slider },
   name: "Layout",
   data() {
     return {
       camera: null,
       scene: null,
       renderer: null,
-      mesh: null,
-      slider: null
+      mesh: null
     }
   },
   methods: {
@@ -324,15 +302,6 @@ export default {
   scale: function(num, in_min, in_max, out_min, out_max) {
     return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
   },
-  createSlider: function() {
-    this.slider = tns({
-      container: '.slider',
-      items: 1,
-      navAsThumbnails: true,
-      slideBy: 'page',
-      autoplay: true
-    });
-  },
   resize: function() {
       this.camera.aspect = window.innerWidth / window.innerHeight;
       this.camera.updateProjectionMatrix();
@@ -345,13 +314,10 @@ export default {
   },
   handleScroll (event) {
     //this.isUserScrolling = (window.scrollY > 0);
-  },
-  beforeMount() {
-    this.createSlider();
-  },
+  }
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
+    // window.addEventListener('scroll', this.handleScroll);
     window.addEventListener('resize', this.resize);
     window.addEventListener('mousemove', this.windowMouseMove);
     this.init();
