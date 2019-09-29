@@ -16,7 +16,7 @@
     </div>
   </div>
   </transition> -->
-  <div class="theme-canvas">
+  <div class="theme-container">
 
     <Nav />
     <div class="content-container">
@@ -24,7 +24,7 @@
         <div class="program-links" v-if="this.$page.frontmatter.programs">
           <ul class="list">
             <li v-for="item in $site.themeConfig.programsNav">
-              <router-link :to="item.link" :class=item.text>
+              <router-link :to="item.link" :class=item.class>
                 {{item.text}}
                 <svg class= "big-arrow" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.85 40.85"><defs><style>.cls-1{fill:#fff}</style></defs><title>X</title><path :class=item.text class="cls-1 " d="M6.43 1.84L25 20.43 6.43 39l-4.59-4.57 13.08-13.08.92-.92-.92-.92L1.84 6.43l4.59-4.59m0-1.84L0 6.43l14 14-14 14 6.43 6.42 20.42-20.42L6.43 0z"/></svg>
               </router-link>
@@ -53,11 +53,21 @@
           </div>
         </div>
       </transition>
+      <div class="event-container">
+        <div class="event-block">
+          <div class="event-description">
+
+          </div>
+          <div class="event-image">
+
+          </div>
+        </div>
+      </div>
       <Content/>
-      <Footer />
     </div>
-    <div id="three-canvas">
+    <div id="three-canvas" v-bind:class="{ opacitydown: !this.$page.frontmatter.home }">
     </div>
+    <Footer v-if="!this.$page.frontmatter.home && !this.$page.frontmatter.programs" />
   </div>
 </template>
 

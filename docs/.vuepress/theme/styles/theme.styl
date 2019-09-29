@@ -30,18 +30,24 @@ h1,h2,h3,h4,h5,.list,.program-page-title
 p
   line-height: 1.3rem
 
+#app
+  height 100%
+  width 100%
+
 .content__default
   padding 2rem 3rem 0 3rem
   margin-top 7em
-  min-height 400px
 
 .theme-container
-  margin-top 10rem
+  height 100%
+  margin-top 4rem
 
 .content-container
+  margin-top 10rem
   max-width 960px
   margin auto
   padding 20px
+  height 100%
   position relative
 
 .page-title
@@ -103,10 +109,20 @@ p
 .cls-1
   &.concerts
     fill $metallic-blue
+  &.special-programs
+    fill $metallic-silver
+  &.market
+    fill $metallic-brown
+  &.film-screening
+    fill $metallic-pink
   &.exhibition
     fill $metallic-gold
   &.residency
     fill $copper
+  &.talks
+    fill $metallic-blue-green
+  &.workshops
+    fill $metallic-green
 
 .program-links
   .concerts:hover
@@ -152,7 +168,6 @@ p
   left 0
   right 0
   box-sizing border-box
-  background-color #000
 
 .nav-bar, footer
   li
@@ -185,3 +200,7 @@ footer
   top 0
   position fixed
   overflow hidden
+  transition opacity 0.5s ease
+
+.opacitydown
+  opacity .3

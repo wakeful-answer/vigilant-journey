@@ -12,22 +12,19 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: "programs", link: "/programs/" },
+      { text: "programs", link: "/programs" },
       { text: "schedule", link: "/schedule/" },
       { text: "venues", link: "/venues/" },
       { text: "info", link: "/info/" }],
     programsNav: [
-      { text: "concerts", link: "/programs/concerts/" },
-      { text: "exhibition", link: "/programs/exhibition/" },
-      { text: "residency", link: "/programs/residency/" }
+      { class:"concerts", text: "concerts", link: "/concerts/" },
+      { class:"exhibition", text: "exhibition", link: "/exhibition/" },
+      { class:"residency", text: "residency", link: "/residency/" },
+      { class:"special-programs", text: "special programs", link: "/special-programs" },
+      { class:"talks", text: "talks", link: "/talks/" },
+      { class:"workshops", text: "workshops", link: "/workshops/" },
+      { class:"film-screening", text: "film screening", link: "/film-screening/" },
+      { class:"market", text: "market", link: "/market/" }
     ]
-  },
-  chainWebpack: (config, isServer) => {
-  config.module
-  .rule('gltf')
-  .test(/\.glb$/)
-  .use('ignore-loader')
-    .loader('ignore-loader')
-    .end()
   }
 }
