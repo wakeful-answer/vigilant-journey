@@ -2,12 +2,14 @@
 programPage: true
 title: exhibition
 class: exhibition
-date: 12-28 oct
+date: 15-28 oct
 layout: Layout
 content:
 -
   title: The SINE WAVE ORCHESTRA stay
   class: sine-wave
+  date: OCTOBER 15-28
+  venue: Arete, Ateneo de Manila University
   artists:
     - The SINE WAVE ORCHESTRA
   images:
@@ -22,6 +24,8 @@ content:
 -
   title: WSK X RetroSpectivity
   class: retrospectivity
+  date: OCTOBER 15-28
+  venue: Arete, Ateneo de Manila University
   artists:
     - WSK
   images:

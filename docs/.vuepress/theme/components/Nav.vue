@@ -2,6 +2,7 @@
   <header>
     <nav
       class="nav-bar"
+      v-bind:class="{ 'bg-black': !this.$page.frontmatter.home }"
     >
       <ul class="list">
         <transition name="logo-anim" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">

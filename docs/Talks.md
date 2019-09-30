@@ -13,6 +13,11 @@ content:
   images:
     - sine-wave-talk.jpg
   date: October 16
+  desc:
+    - 'Concurrent with the exhibition of their installation “stay” (2017), the four artists comprising The Sine Wave Orchestra — Ken Furudate, Kazuhiro Jo, Daisuke Ishida, and Mizuki Noguchi — will discuss their individual practices, both in art and academia, and interests which encompass a diverse range of subjects including acoustics, contemporary and time-based media, minimalist aesthetics, practice- based research, the expressive dimension of recent technology, the perception of sound, and new perspectives on spatialities.'
+    - 'They will also talk about the history of The Sine Wave Orchestra: its genesis, philosophy, methodologies, and previous multimedia installations and other projects. Lastly, the four will discuss their work “stay” (2017), its conceptualization, iterations, and manifestations.
+    The SINE WAVE ORCHESTRA (SWO) was launched in 2002 by Ken Furudate, Kazuhiro Jo, Daisuke Ishida, and Mizuki Noguchi as a project that works exclusively with sine waves.'
+
 -
   title: Feedback Forum 2019
   class: feedback

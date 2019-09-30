@@ -10,7 +10,7 @@
         <img class="arrow-link" :src="$withBase('/arrow-link.svg')" />
       </li>
       <li>
-        <a href="https://www.youtube.com/channel/UCiNKu5vYpvqPJ69NU5aGkmA"><span class="underline">YOUTUBE</span></a>
+        <a href="https://www.youtube.com/channel/UCiNKu5vYpvqPJ69NU5aGkmA/videos"><span class="underline">YOUTUBE</span></a>
         <img class="arrow-link" :src="$withBase('/arrow-link.svg')" />
       </li>
     </ul>

@@ -6,7 +6,27 @@ date: 12-28 oct
 layout: Layout
 content:
 -
+  title: "CLUB NIGHT: SWARM"
+  class: swarm
+  artists:
+    - Auspicious Family
+    - Bruder
+    - LAFIDKI
+    - Miko Revereza
+    - Mumuy
+    - Y-DRA
+  images:
+    - swarm.jpg
+  date: Thursday, October 24  
+  time: 22:00-02:00
+  venue: XX XX
+  desc:
+    - 'Frenetic and buzzing particles congregate and form an amorphous mass, simultaneously dense and evanescent. Hovering over the present, this crowd is locked in the pulse, trailing every hypnotic beat, only to be further intoxicated by a flurry of sonic collages and grainy hyperkinetic visuals. In SWARM, WSK foregrounds experimental club music and some of its diverse inflections ranging from oneiric techno to retrofuturistic groove, and psychedelic noise to ambient industrial, through the works of five different performers unified by a synesthetic predilection for hazy textures and propulsive rhythms.'
+-
   title: WSK x ELEPHANT
+  class: elephant
+  images:
+    - elephant.jpg
   artists:
     - Martin de Mesa + Jeona
     - Dignos x Adrianne
@@ -19,11 +39,12 @@ content:
   time: 22:00-03:00
   venue: XX XX
   desc:
-    - "Elephant is a celebration of Manila’s rave culture, a scene that disregards gender norms and sexual orientations, a party where the colorful and the outrageous collide in a space that proudly welcomes it. A night of dark dance tracks, pounding techno, grind/gabber/noise/dangdut glitched-out 3D animations."
-
-    - '"A Bwakeoke Night Performance" from Madam Bwakeva and extreme.meth.in.my.bloodstream (with special participation of Bwakeboyz) involving kwek-kwek and videoke.'
+    - "Elephant is a celebration of Manila’s rave culture, a scene that disregards gender norms and sexual orientations, a party where the colorful and the outrageous collide in a space that proudly welcomes it."
 -
-  title: "________: WSK x NOISEBATH PH"
+  title: "TORTURE GARDEN: WSK x NOISEBATH PH"
+  class: torture
+  images:
+    - torture-garden.jpg
   artists:
     - Chris Murillo
     - Lush Death from Noisebath PH
@@ -34,22 +55,22 @@ content:
   time: 22:00-02:00
   venue: Limbo  
   desc:
-    - 'WSK x Noisebath is a night of collaborative explorations of visceral, abysmal noise that which violates the eardrum and articulates its own overwhelming presence upon the body.'
+    - 'WSK and Noisebath PH collaborate once again to orchestrate TORTURE GARDEN, a purgatorial night of raw, visceral noise. Featuring artists from different parts of the Philippines and its neighboring territories, TORTURE GARDEN presents music as a coprophagic organism, unable to break away from a cycle of excretion and regurgitation. Equipped with contact mics, circuit-bent machines, and extended techniques, these artists — which include post-apocalyptic metal fetishists and a sleaze-and-schlock noisegrind outfit — scavenge from sonic refuse, dive neck-deep into music’s landfill, to unleash atonal and infernal torrents, test the thresholds of listeners, ultimately in pursuit of aural extremities.'
 -
-  title: BISTRACK CONCERT
-  artists:
-    - Bastard of Beats
-    - Libya Montes
-    - Mark Omega
-    - spaaawn
-    - Tin Titus
-  date: Saturday, October 26  
-  time: 21:00-02:00
-  venue: Futur:st
+  title: "CONCURRENT SHOW: POLTERGEIST"
+  class: poltergeist
+  images:
+    - poltergeist.jpg
+  date: Friday, October 25
+  time: 22:00-00:00  
+  venue: Ruins
   desc:
-    - "A showcase of the most cutting edge and exciting electronic musicians and DJs from the Visayas: Iloilo, Roxas City, Cebu performing alongside some of Manila’s top electronic musicians. A concurrent show in conjunction with BISTRACK album launch, a new collective anthology of experimental music in Visayas region: featuring Visayan artists supported by local acts from Manila."
+    - 'In the remains of a burned down ancestral house, abandoned until its recent repurposing, creaking floorboards and harsh echoes bouncing off thick concrete walls are swallowed by otherworldly tones, glacial glissandos, and atonal shrieks. They bleed into each other, ebbing and flowing, as eight musicians — of distinct backgrounds and divergent sensibilities — continue to speak in tongues, slip in and out of time, volume, and idioms, and divine phantasmic textures from electro-acoustic mediums. Lurking from different parts of the dilapidated space, this cracked and scattered octet emits crackling static and shimmering skronks, tone clusters and sound masses, as each musician follows their own psychic streams, communally taking part in this suburban disturbance.'
 -
   title: "CONCURRENT SHOW: HIVE"
+  class: hive
+  images:
+    - hive.jpg
   artists:
   - SABA
   - Bombo Pluto Ova
@@ -60,24 +81,32 @@ content:
   venue: Dulo (2nd floor)
   desc:
     - 'Hive will be the locus of intersection for a variety of different hives, a site for exchange between independent bands and initiatives, a venue featuring performances by a number independent artists who work within the confines of the familiar yet are in continual pursuit of the new.'
-
-    - 'Bands exploring the multiple mediums involved in the production of rock music (objects/sculpture, song form, live performance, sound itself); confines with blurred borders; advancements, substitutions, reductions, maximalism; intensity
-    This event is an exploration of the gig format, as a platform, a site for engagement, relational network'
 -
-  title: RAMBULAN SA LAWTON UNDERPASS
+  title: 'CLUB NIGHT: BISTRACK CONCERT'
+  class: bistrack-concert
+  images:
+    - bistrack-concert.jpg
   artists:
-    - Chaos Non Musica
-    - Noisebath PH
-  venue: Lawton Underpass
+    - Bastard of Beats
+    - Libya Montes
+    - Mark Omega
+    - spaaawn
+    - Tin Titus
+  date: Saturday, October 26  
+  time: 21:00-02:00
+  venue: Futur:st
   desc:
-    - "Two scenes collide in a notoriously dangerous underpass avoided by most pedestrians who would rather play real-life Frogger than risk getting mugged at knifepoint. Newly renovated, with its grime-caked tiled surfaces haphazardly scrubbed and its inhabitants dehumanized and evicted, the underpass is slowly regaining the trust of the commuters it terrified in the past. In this program, two communities — the Bali-based DIY noise festival Chaos Non Musica and Manila-based experimental collective Noisebath PH — square off to once again disrupt the area’s foot traffic and jolt passersby out of their 9-to-5 stupor with their careful selection of guttural growls and banshee screams, skull-drilling skronks and grating waves of static."
+    - "CLUB NIGHT: BISTRACK CONCERT showcases some of the most cutting-edge and exciting electronic musicians and DJs from Iloilo, Cebu, Roxas City, and other areas in the Visayas region performing alongside some of Manila’s most outré and left-field artists in a retro resto-bar in the heart of the bustling neighborhood of Poblacion. A show of dark industrial, minimal techno, ambient, and noise acts concurrent with the launch of the BISTRACK album, a new anthology of experimental music in the Visayas region, happening a block away at DULO."
 -
   title: 'SPECTRES'
+  class: spectres
   artists:
     - Datu Arellano
     - Laure Boer and collaborators
     - Erick Calilan
     - Meuko! Meuko! x NAXS corp.
+  images:
+    - spectres.jpg
   date: Sunday, October 27  
   time: 19:00-21:30
   venue: Rajah Sulayman Theater, Intramuros
@@ -85,13 +114,16 @@ content:
     - "Acting as the festival’s closing concert, SPECTRES will feature four electro-acoustic and multimedia acts, all of whom can be considered as artists working in the ambient idiom, or music which foregrounds transient textures over the rigid grids rhythm and structure imposes on sound. In an open-air theater located within the gates of a rebuilt Spanish colonial-era citadel, harmonically-rich and immersive walls of sound conjure remote atmospheres — of uncharted territories, otherworldly domains, and dystopian metropolises. Haunted by the weight of history, of centuries-long subjugation, and scarred with traces of the global catastrophe which almost obliterated it, the theater provides new dimensions to the readymade spaces often said to be evoked by ambient music."
 -
   title: FESTIVAL CLOSING PARTY
+  class: closing
+  images:
+    - closing-party.jpg
   artists:
     - Bruder
     - Libya Montes
     - Alyas Morgus
   date: Sunday, October 27  
   time: 21:30-03:00
-  venue: Intramuros, Batala Bar
+  venue: Batala Bar, Intramuros
   desc:
     - WSK caps off its 10th year anniversary festival with DJ performances from Bruder, Libya Montes, and Alyas Morgus.
 
