@@ -20,7 +20,7 @@
         </li>
         <router-link
           :to="'/nusasonic'"
-        > <img class="nusa-link" :src="$withBase('/nusasonic-logo.svg')" /> </router-link>
+        > <img class="nusa-link" :src="$withBase('/partners/nusasonic-logo.svg')" /> </router-link>
       </ul>
     </nav>
   </header>

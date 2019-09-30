@@ -4,7 +4,7 @@ layout: Layout
 ---
 
 
-<img class="wsk-logo" src="/nusasonic-logo.svg" />
+<img class="wsk-logo" src="/partners/nusasonic-logo.svg" />
 
 <h1>Crossing Aural Geographies</h1>
 
