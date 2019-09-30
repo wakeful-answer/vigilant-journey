@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>venues | WSK X</title>
+    <meta name="description" content="Festival of the Recently Possible">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    
+    <link rel="preload" href="/assets/css/0.styles.43be97d9.css" as="style"><link rel="preload" href="/assets/js/app.ff8c7245.js" as="script"><link rel="preload" href="/assets/js/3.a06e6af4.js" as="script"><link rel="preload" href="/assets/js/19.dbd9b480.js" as="script"><link rel="prefetch" href="/assets/js/10.b1314b0e.js"><link rel="prefetch" href="/assets/js/11.6c7ecd6a.js"><link rel="prefetch" href="/assets/js/12.848959db.js"><link rel="prefetch" href="/assets/js/13.ee632c1f.js"><link rel="prefetch" href="/assets/js/14.25d8ad89.js"><link rel="prefetch" href="/assets/js/15.bb2bd677.js"><link rel="prefetch" href="/assets/js/16.4b266dd5.js"><link rel="prefetch" href="/assets/js/17.c15860c8.js"><link rel="prefetch" href="/assets/js/18.95e45a2e.js"><link rel="prefetch" href="/assets/js/2.1c931818.js"><link rel="prefetch" href="/assets/js/20.db25b675.js"><link rel="prefetch" href="/assets/js/21.dfe00cae.js"><link rel="prefetch" href="/assets/js/4.538b5e18.js"><link rel="prefetch" href="/assets/js/5.6d0bba03.js"><link rel="prefetch" href="/assets/js/6.ff8a0e0e.js"><link rel="prefetch" href="/assets/js/7.2cc5bb30.js"><link rel="prefetch" href="/assets/js/8.a3133ca4.js"><link rel="prefetch" href="/assets/js/9.061e842b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.43be97d9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><!----> <!----> <header><nav class="nav-bar"><ul class="list"><a href="/" class="router-link-active"><img src="/x-logo.svg" class="logo-link"></a> <li><a href="/programs"><span class="underline">programs</span> <img src="/arrow-link.svg" class="arrow-link"></a></li><li><a href="/schedule/"><span class="underline">schedule</span> <img src="/arrow-link.svg" class="arrow-link"></a></li><li><a href="/venues/" class="router-link-exact-active router-link-active"><span class="underline">venues</span> <img src="/arrow-link.svg" class="arrow-link"></a></li><li><a href="/info/"><span class="underline">info</span> <img src="/arrow-link.svg" class="arrow-link"></a></li> <a href="/nusasonic"><img src="/nusasonic-logo.svg" class="nusa-link"></a></ul></nav></header> <div class="content-container"><!----> <div class="page-title"><h1>venues </h1> <img src="/arrow-down.svg"></div> <!----> <!----> <div class="content__default"><h1>CONCERTS</h1> <h2>DULO</h2>
+DULO is a Restaurant Bar Café and Arts Event Space that caters to
+the emerging, deeply rooted, and passion driven creatives of this
+generation, generations past, and those to come. Always found on
+the outskirts of cities where energies &amp; spirits are high, Dulo is a
+creative safe haven where all artistic expression is welcome and
+nurtured. Unfiltered and uncensored.
+<h2>RUINS</h2>
+Ruins is an abandoned traditional Manila
+style house in Poblacion
+that has been turned into an event space / art hub, showcasing
+paintings and artworks of different local and international artists.
+<h2>XX XX</h2>
+XX XX brings the minimalist trimmings of the Euorpean electronic
+music institution to Manila. The lower level features a spacious
+dance floor and bar while upstairs comfortable couches and a
+balcony let you watch the whole party from above. Previous guests
+include DJ Nobu, Objekt or Acid Mother’s Temple.
+<h2>LIMBO</h2>
+Limbo is a space in Poblacion that primarily functions as an art
+gallery / cocktail bar, but also hosts a wide range of music events
+from experimental to noise, psychedelic, new wave, brit pop and
+more.
+<h2>FUTUR:ST</h2>
+Futur:st is a resto
+bar / club in the heart of poblacion that has a
+laid back, artsy vibe, with interiors that resemble an Old Manila
+home and a signature disco ball to complete the retro look.
+<h2>LAWTON UNDERPASS</h2> <h2>RAJAH SULAYMAN THEATER, INTRAMUROS</h2> <h2>BATALA BAR, INTRAMUROS</h2> <h1>TALKS</h1> <h2>HYUNDAI HALL, ARETE</h2> <h2>ARETE LOBBY</h2> <p>More Coming Soon.</p></div></div> <div id="three-canvas" class="opacitydown"></div> <footer><ul class="list"><li><a href="https://instagram.com/wsk.io"><span class="underline">INSTAGRAM</span></a> <img src="/arrow-link.svg" class="arrow-link"></li> <li><a href="https://facebook.com/wsk.io"><span class="underline">FACEBOOK</span></a> <img src="/arrow-link.svg" class="arrow-link"></li> <li><a href="https://www.youtube.com/channel/UCiNKu5vYpvqPJ69NU5aGkmA"><span class="underline">YOUTUBE</span></a> <img src="/arrow-link.svg" class="arrow-link"></li></ul> <div class="text-center">2019 © WSK</div></footer></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ff8c7245.js" defer></script><script src="/assets/js/3.a06e6af4.js" defer></script><script src="/assets/js/19.dbd9b480.js" defer></script>
+  </body>
+</html>

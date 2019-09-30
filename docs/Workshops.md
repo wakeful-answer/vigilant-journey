@@ -7,9 +7,12 @@ layout: Layout
 content:
 -
   title: '3D Organic Vision/Sound'
+  class: '3d'
   artists:
     - Makino Takahashi
     - Rei Hayama
+  images:
+    - 3d-workshop.jpg
   date: October 21-23
   desc:
     - "This three-day workshop, to be conducted by experimental filmmakers Makino Takashi and Rei Hayami, aims to maximize the participants’ senses of sight and hearing and to help them develop a propensity for improvisation through various cameraless filmmaking techniques and a brief exploration of expanded cinema."

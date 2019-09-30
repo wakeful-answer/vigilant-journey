@@ -27,5 +27,5 @@ content:
   images:
     - retrospectivity.jpg
   desc:
-    - 'An interactive library, retrospective multimedia show documenting 10+ years of media art in the Philippines'
+    - 'An interactive library, retrospective multimedia show documenting 10+ years of media art in the Philippines.'
 ---

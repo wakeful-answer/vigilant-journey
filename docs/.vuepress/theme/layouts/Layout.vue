@@ -70,7 +70,9 @@
             </div>
           </div>
           <div class="event-images" >
-            <Slider v-bind:name="content.class" v-bind:imageData="content.images" v-if="content.images" ></Slider>
+            <ClientOnly>
+              <Slider v-bind:name="content.class" v-bind:imageData="content.images" v-if="content.images" ></Slider>
+            </ClientOnly>
           </div>
         </div>
       </div>
@@ -87,7 +89,7 @@
 import * as THREE from 'three';
 // import OrbitControls from 'three-orbitcontrols'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import * as dat from 'dat.gui';
+// import * as dat from 'dat.gui';
 import * as Fragment from '../fragmentshader';
 import Nav from "@theme/components/Nav";
 import Footer from "@theme/components/Footer";
@@ -312,9 +314,9 @@ export default {
     this.mouse.x = ( event.clientX /  window.innerWidth ) * 2 - 1;
     this.mouse.y = - ( event.clientY /  window.innerHeight ) * 2 + 1;
   },
-  handleScroll (event) {
-    //this.isUserScrolling = (window.scrollY > 0);
-  }
+  // handleScroll (event) {
+  //   //this.isUserScrolling = (window.scrollY > 0);
+  // }
   },
   mounted() {
     // window.addEventListener('scroll', this.handleScroll);

@@ -8,6 +8,9 @@ content:
   title: GANGAN
   artists:
     - Gangan Series
+  class: gangan-performance
+  images:
+    - gangan-performance.jpg
   date: Thursday, October 24
   time: 17:00-19:00
   venue: Arete Lobby

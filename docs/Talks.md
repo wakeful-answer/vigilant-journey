@@ -7,11 +7,17 @@ layout: Layout
 content:
 -
   title: 'BELIEVE YOUR SINE WAVE: The SINE WAVE ORCHESTRA ARTIST TALK'
+  class: sine-talk
   artists:
   - The SINE WAVE ORCHESTRA
+  images:
+    - sine-wave-talk.jpg
   date: October 16
 -
   title: Feedback Forum 2019
+  class: feedback
+  images:
+    - feedback-forum.jpg
   artists:
     - WSK
     - Nusasonic

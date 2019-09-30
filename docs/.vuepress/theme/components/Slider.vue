@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import {tns} from 'tiny-slider/src/tiny-slider';
+// import {tns} from 'tiny-slider/src/tiny-slider';
 
 export default {
   data() {
@@ -27,23 +27,27 @@ export default {
     imageData: Array,
     name: String
   },
-  mounted() {
-    this.slider = tns({
-      container: '.tiny-slider-'+this.name,
-      items: 1,
-      controls: false,
-      navAsThumbnails: true,
-      slideBy: 'page',
-      navContainer: ".nav-slider-"+this.name
-    });
-    this.navSlider = tns({
-    	loop: false,
-    	container: '.nav-slider-'+this.name,
-    	items: this.imageData.length,
-    	nav: false,
-    	controls: false
-    });
+  mounted () {
+    import('tiny-slider/src/tiny-slider').then(module => {
 
+      this.slider = module.tns({
+        container: '.tiny-slider-'+this.name,
+        items: 1,
+        controls: false,
+        navAsThumbnails: true,
+        slideBy: 'page',
+        navContainer: ".nav-slider-"+this.name
+      });
+
+      this.navSlider = module.tns({
+        loop: false,
+        container: '.nav-slider-'+this.name,
+        items: this.imageData.length,
+        nav: false,
+        controls: false
+      });
+
+    });
   }
 }
 </script>

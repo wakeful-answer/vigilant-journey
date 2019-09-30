@@ -11,6 +11,9 @@ content:
     - Kwago
     - Comma
     - WSK
+  class: afk
+  images:
+    - afk.jpg
   date: Saturday, October 27
   time: 11:00 - 20:00
   venue: Loggia, Casa Manila, Intramuros
