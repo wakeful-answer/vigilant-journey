@@ -82,10 +82,10 @@ content:
   desc:
     - 'Hive will be the locus of intersection for a variety of different hives, a site for exchange between independent bands and initiatives, a venue featuring performances by a number independent artists who work within the confines of the familiar yet are in continual pursuit of the new.'
 -
-  title: 'CLUB NIGHT: BISTRACK CONCERT'
-  class: bistrack-concert
+  title: 'CLUB NIGHT: VISTRAX CONCERT'
+  class: vistrax-concert
   images:
-    - bistrack-concert.jpg
+    - vistrax-concert.jpg
   artists:
     - Bastard of Beats
     - Libya Montes
@@ -96,7 +96,7 @@ content:
   time: 21:00-02:00
   venue: Futur:st
   desc:
-    - "CLUB NIGHT: BISTRACK CONCERT showcases some of the most cutting-edge and exciting electronic musicians and DJs from Iloilo, Cebu, Roxas City, and other areas in the Visayas region performing alongside some of Manila’s most outré and left-field artists in a retro resto-bar in the heart of the bustling neighborhood of Poblacion. A show of dark industrial, minimal techno, ambient, and noise acts concurrent with the launch of the BISTRACK album, a new anthology of experimental music in the Visayas region, happening a block away at DULO."
+    - "CLUB NIGHT: VISTRAX CONCERT showcases some of the most cutting-edge and exciting electronic musicians and DJs from Iloilo, Cebu, Roxas City, and other areas in the Visayas region performing alongside some of Manila’s most outré and left-field artists in a retro resto-bar in the heart of the bustling neighborhood of Poblacion. A show of dark industrial, minimal techno, ambient, and noise acts concurrent with the launch of the VISTRAX album, a new anthology of experimental music in the Visayas region, happening a block away at DULO."
 -
   title: 'SPECTRES'
   class: spectres
