@@ -3,7 +3,9 @@ title: venues
 layout: Layout
 ---
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1tJF0UhsCjFdpeLkJecfToCkgt7Xi11t5" height="480"></iframe>
+
+<iframe src="https://snazzymaps.com/embed/188467" width="100%" height="600px" style="border:none;"></iframe>
+
 
 <h1>CONCERTS</h1>
 
