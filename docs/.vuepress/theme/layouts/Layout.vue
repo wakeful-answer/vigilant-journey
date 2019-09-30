@@ -77,6 +77,22 @@
         </div>
       </div>
       <Content/>
+      <div class="venues-container" v-if="this.$page.frontmatter.title == 'venues'">
+        <div class="google-maps-embed">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1tJF0UhsCjFdpeLkJecfToCkgt7Xi11t5" height="480"></iframe>
+        </div>
+        <div class="venue-info">
+          <div class="venue" v-for="(venue, index) in this.$page.frontmatter.venues" :key="'venue'+index">
+            <div class="venue-title">
+              {{venue.title}}
+            </div>
+            <div class="venue-desc">
+              {{venue.desc}}
+            </div>
+          </div>
+          <span style="color: #000">{{ this.$page.frontmatter.filler }}</span>
+        </div>
+      </div>
     </div>
     <div id="three-canvas" v-bind:class="{ opacitydown: !this.$page.frontmatter.home }">
     </div>

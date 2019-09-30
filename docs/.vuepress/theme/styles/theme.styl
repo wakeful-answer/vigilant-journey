@@ -30,19 +30,23 @@ h1,h2,h3,h4,h5,.list,.program-page-title
 p
   line-height: 1.4rem
 
+a
+  color #fff
+
 #app
   height 100%
   width 100%
 
 .content__default
   padding 2rem 3rem 0 3rem
-  margin-top 5em
+  margin 5em 0
 
 .theme-container
   height 100%
   margin-top 4rem
 
 .content-container
+  min-height 300px
   margin-top 10rem
   max-width 960px
   margin auto
@@ -326,3 +330,26 @@ iframe
 .tns-outer
   display flex
   flex-direction column-reverse
+
+.venues-container
+  font-size 10pt
+  overflow hidden
+  display flex
+  height 480px
+  .google-maps-embed
+    flex-grow 2
+  .venue-info
+    overflow scroll
+    background-color #fff
+    padding 2em
+    max-width 280px
+
+.venue-title
+  padding .8em
+  display inline-block
+  background-color #000
+
+.venue-desc
+  margin 1em 0 2em 0
+  padding-bottom 1em
+  color #000
