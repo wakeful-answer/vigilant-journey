@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/vigilant-journey/', 
   title: 'WSK X',
   description: 'Festival of the Recently Possible',
   head: [
