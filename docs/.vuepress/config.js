@@ -23,10 +23,10 @@ module.exports = {
       { class:"market", text: "market", link: "/market/" }
     ]
   },
-  plugins: {
-    'clean-urls': {
-      normalSuffix: '',
-      indexSuffix: '',
-    },
-  }
+  // plugins: {
+  //   'clean-urls': {
+  //     normalSuffix: '',
+  //     indexSuffix: '',
+  //   },
+  // }
 }
