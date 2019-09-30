@@ -10,8 +10,8 @@ module.exports = {
       { text: "programs", link: "/programs" },
       { text: "schedule", link: "/schedule/" },
       { text: "venues", link: "/venues/" },
-      { text: "info", link: "/info/" },
-      { text: "tickets", link: "/tickets/" }],
+      { text: "tickets", link: "/tickets/" },
+      { text: "info", link: "/info/" }],
     programsNav: [
       { class:"concerts", text: "concerts", link: "/concerts/" },
       { class:"exhibition", text: "exhibition", link: "/exhibition/" },
