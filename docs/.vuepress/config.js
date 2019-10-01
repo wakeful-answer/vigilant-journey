@@ -10,7 +10,7 @@ module.exports = {
     [ "meta",{ property: "og:type", content: "website"}],
     [ "meta",{ property: "og:description", content: "WSK X"}],
     [ "meta",{ property: "og:title", content: "Festival of The Recently Possible"}],
-    [ "meta",{ property: "og:image", content: "/og-image.jpg"}]
+    [ "meta",{ property: "og:image", content: "./og-image.jpg"}]
     // ['script', {src: 'https://code.jquery.com/jquery-3.4.1.min.js'}]
   ],
   themeConfig: {
