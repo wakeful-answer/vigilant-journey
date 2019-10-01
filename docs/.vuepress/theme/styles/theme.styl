@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Lausanne';
-    src: url('./Lausanne-Regular.woff2') format('woff2'),
-        url('./Lausanne-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Lausanne';
+  src: url('./Lausanne-Regular.woff2') format('woff2'),
+      url('./Lausanne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 $metallic-gold = #B3A16E
@@ -42,6 +42,8 @@ body
   width 100%
   +mobile()
     font-size 12pt
+#app
+  overflow-x hidden
 
 h1,h2,h3,h4,h5,.list,.program-page-title
   text-transform uppercase
@@ -409,6 +411,7 @@ a
 footer
   +mobile()
     .list
+      font-size 9pt
       display block
   li:last-child
     +mobile()
