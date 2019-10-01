@@ -7,6 +7,6 @@ layout: Layout
 
 Coming Soon.
 
-For now, please see our event page on [Facebook](https://www.facebook.com/events/2621910691155290/)
+For now, please see a list of our event pages on [Facebook](https://www.facebook.com/pg/WSK.io/events/)
 
 </div>

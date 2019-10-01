@@ -17,10 +17,19 @@ content:
     - hacklab-02.jpg
     - hacklab-03.jpg
   date: October 16-23
+  links:
+    -
+      title: DETAILS
+      link: 'http://bit.ly/WSKhacklab2019'
+    -
+      title: 'SIGN-UP'
+      link: 'http://bit.ly/HackLabForm'
   desc:
     - "The MusicMakers Hacklab is an open collaborative laboratory hosted by Peter Kirn of Create Digital Music together with a changing cast of collaborators. It is organized by CTM Festival together with various partners from the fields of culture, music, and technology such as Ableton and Native Instruments. Each MusicMakers Hacklab creates a unique platform for collaboration, knowledge exchange and inspiration, allowing practitioners from a range of disciplines to create and play, and to find new ways of exploring the current and future potentials that lie in interfacing music with technology and other fields of practice."
 
     - "For each edition of Hacklab, an open call invites artists/performers, scientists, developers and experimenters to submit project ideas based on a given theme. The selected Hacklab Fellows will be encouraged to collaborate as they learn and work with experienced individuals from the arts and tech sectors, and develop new concepts, systems, and objects in response to the theme. Their creations will subsequently be presented in a final public showcase, typically on the Hacklab’s closing day."
+    
+    - 'Submission Deadline: Oct 4, 2019'
 -
   title: GANGAN RESIDENCY
   class: gangan

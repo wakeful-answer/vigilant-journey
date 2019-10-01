@@ -3,7 +3,8 @@ module.exports = {
   description: 'Festival of the Recently Possible',
   head: [
     [ "link",{ rel: "stylesheet",href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"}],
-    [ "link",{ rel: "stylesheet",href: "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"}]
+    [ "link",{ rel: "stylesheet",href: "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"}],
+    [ "meta",{ name: "viewport", content: "width=device-width,initial-scale=1.0"}]
   ],
   themeConfig: {
     nav: [
@@ -19,7 +20,6 @@ module.exports = {
       { class:"special-programs", text: "special programs", link: "/special-programs" },
       { class:"talks", text: "talks", link: "/talks/" },
       { class:"workshops", text: "workshops", link: "/workshops/" },
-      { class:"film-screening", text: "film screening", link: "/film-screening/" },
       { class:"market", text: "market", link: "/market/" }
     ]
   },

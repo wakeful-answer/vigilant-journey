@@ -2,9 +2,9 @@
   <div class="theme-container">
     <transition name="logo-anim" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
       <div class="subtitle"  v-if="this.$page.frontmatter.home">
-        <h2>FESTIVAL OF </h2>
-        <h2>THE RECENTLY </h2>
-        <h2>POSSIBLE </h2>
+        <span>FESTIVAL OF </span>
+        <span>THE RECENTLY </span>
+        <span>POSSIBLE </span>
       </div>
     </transition>
     <transition name="logo-anim" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
@@ -67,6 +67,9 @@
             </div>
             <div class="event-desc">
               <p v-for="(p, index) in content.desc" :key="'event'+index">  {{ p }} </p>
+              <div style="display: inline-block;padding-right: 1em" v-for="(link, index) in content.links" :key="'link'+index">
+                  <a v-bind:href="link.link">{{link.title}}</a>
+              </div>
             </div>
           </div>
           <div class="event-images" >
@@ -283,7 +286,7 @@ export default {
 
         if (distance < 0.15 ) {
           sizes[i] = 1 * ( 0.1 + Math.sin( 0.1 * i + time ) );
-          displacement[i] += 0.001 * (i * 0.002);
+          displacement[i] += 0.007 * (i * 0.002);
           rotation[i] = 0.001 * ( 0.1 + Math.sin( 0.1 * i + time ) );
           xDistort[i] = 0.001 * (i * 0.002);
           yDistort[i] = 0.001 * (i * 0.002);

@@ -2,7 +2,7 @@
 programPage: true
 title: market
 class: market
-date:
+date: 26-27 oct
 layout: Layout
 content:
 -
