@@ -33,7 +33,7 @@ body
   height 100%
   width 100%
   +mobile()
-    font-size 10pt
+    font-size 12pt
 
 h1,h2,h3,h4,h5,.list,.program-page-title
   text-transform uppercase
@@ -168,11 +168,12 @@ a
   font-size 4rem
   position absolute
   margin-top 4rem
-  +mobile()
-    margin-top 0
-    position initial
   +tablet()
     font-size 3rem
+  +mobile()
+    margin-top 0
+    font-size 3rem
+    position initial
   h1
     display inline-block
   .date
@@ -180,12 +181,26 @@ a
     margin-left 10rem
     +tablet()
       margin-left 8rem
+    +mobile()
+      margin-left 5rem
   .big-arrow
     display inline-block
     margin-left 2rem
     transform rotate(90deg)
     +tablet()
       margin-left 1rem
+    +mobile()
+      height 3rem
+
+.big-arrow
+  height 7rem
+  position absolute
+  margin-top -1.5rem
+  margin-left 4rem
+  +mobile()
+    margin-left 2rem
+    height 2rem
+    margin-top 0
 
 .logo-link
   width 50px
@@ -222,16 +237,6 @@ a
     visibility hidden
   li:hover .big-arrow
     visibility visible
-
-.big-arrow
-  height 7rem
-  position absolute
-  margin-top -1.5rem
-  margin-left 4rem
-  +mobile()
-    margin-left 2rem
-    height 5rem
-    margin-top -1rem
 
 .cls-1
   &.concerts
