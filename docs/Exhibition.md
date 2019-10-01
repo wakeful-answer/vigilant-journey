@@ -8,7 +8,7 @@ content:
 -
   title: The SINE WAVE ORCHESTRA stay
   class: sine-wave
-  date: OCTOBER 15-28
+  date: OCTOBER 15-27
   venue: Arete, Ateneo de Manila University
   artists:
     - The SINE WAVE ORCHESTRA

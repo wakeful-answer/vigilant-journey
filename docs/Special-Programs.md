@@ -5,7 +5,7 @@ class: special-programs
 layout: Layout
 content:
 -
-  title: GANGAN RESIDENCY RECITAL
+  title: PIDGIN CARTOGRAPHY: Experiments on Graphic Notation
   artists:
     - Gangan Series
   class: gangan-performance
@@ -17,11 +17,11 @@ content:
   desc:
     - "The Gangan Series Workshop Lab is an improviser-and-composer workshop which explores the potential of graphic scores and playing in medium-to-large ensembles. Graphic scores’ emphasis on alternative procedures allows more flexibility and possibilities yet retains or reconfigures certain compositional devices."
 
-    - "Over the course of a week, participants will learn the history of graphic notation and undergo various exercises that will aid them in developing their own compositional strategies and notational systems which will culminate in a collaboratively-composed graphic score to be performed by selected festival musicians."
+    - "Over the course of a week, participants will learn the history of graphic notation and undergo various exercises that will aid them in developing their own compositional strategies and notational systems which will culminate in a collaboratively-composed graphic score to be performed at PIDGIN CARTOGRAPHY: Experiments on Graphic Notation by selected festival musicians."
 
     - "Aside from the results of the week-long residency, the ensemble will perform two other scores: Tad Ermitaño’s “Malaganito 1.0” — a video score that only partially specifies and loosely suggests moods and rhythms — and another from Ignaz Schick, a Berlin-based experimental musician who specializes in free jazz and improvisation."
 -
-  title: LIVE CINEMA (OPENING CONCERT)
+  title: END OF FRAME
   class: live-cinema
   artists:
     - Makino Takashi
@@ -35,13 +35,15 @@ content:
   desc:
     - 'WSK concerts have always displayed the inclination towards redefining the limits of audiovisual performance. Synthesizing the visual with the sonic to form synesthetic displays, WSK events draw not only from live and expanded cinematic tradition but rather from a long lineage of photographic, performative, and experiential forms including the camera obscura, the panorama and diorama, the magic lantern, the color organ, liquid light shows and other theatrical formats.'
 
-    - 'This special program will be split into two:'
+    - 'This special program will be segmented in a manner evoking the transformation of the moving image:'
 
-    - 'The first half will present the collaborative result of an experimental film workshop conducted by Japanese artists Makino Takashi and Rei Hayama. In collaboration with WSK founder Tengal, live improvisational music and performances will augment and interact with the projected filmic output producing a highly sensorial event featuring the interplay of light, motion, bodies, and electronics.'
+    - 'Exploring the material dimensions of 16mm film, and its infinite possibilities, Makino Takashi and Rei Hayama will present the collaborative result of a recently-concluded experimental film workshop they conducted. In collaboration with WSK founder Tengal, live improvisational music and performances will augment and interact with the projected filmic output producing a highly sensorial event featuring the interplay of light, motion, bodies, and electronics.'
 
-    - 'The second half will feature a completely new work from one of Manila’s earliest and most trailblazing experimental multimedia art groups: The Children of Cathode Ray. Established in 1989, three of the group’s original core members — Tad Ermitaño, Magyar Tuazon, and Jing Garcia — will perform. A Cathode Ray piece might have radios and 4-second cassette-tape loops feeding into a mix filled with drums and electronic percussion, effected guitars, synthesized pads, vintage gears and passionate raving in an invented language, which would in turn be augmented visually by video feedback, projections of exposed Super-8 abraded with a variety of kitchen implements, or VHS spliced on a pair of consumer VCRs. CCR created the sound of the future, yesterday.'
+    - 'Performing a new piece is one of Manila’s earliest and most trailblazing experimental media art groups: The Children of Cathode Ray. Established in 1989, three of the group’s original core members — Tad Ermitaño, Magyar Tuazon, and Jing Garcia — will work with an arsenal of obsolete technology. A Cathode Ray piece might have radios and 4-second cassette-tape loops feeding into a mix filled with drums and electronic percussion, effected guitars, synthesized pads, vintage gears and passionate raving in an invented language, which would in turn be augmented visually by video feedback, projections of exposed Super-8 abraded with a variety of kitchen implements, or VHS spliced on a pair of consumer VCRs. The Children of Cathode Ray created the sound of the future, yesterday.'
+
+    - 'Lastly, Ken Furudate will provide a mesmerizing audiovisual performance wholly generated through digital means. Deeply influenced by minimalist aesthetics, Furudate concentrates on the simplest elements such as sine waves, pulses, dots, lines, and loop functions, and scales them up to states of overwhelming complexity, at times featuring smooth and transfixing moiré-fringed vortices and subtly-oscillating washes of spectral noise.'
 -
-  title: MUSICMAKERS HACKLAB SHOWCASE
+  title: SHAPESHIFTERS: MUSICMAKERS HACKLAB 2019 @ WSK
   artists:
     - Peter Kirn
     - Tad Ermitano
@@ -51,7 +53,12 @@ content:
   time: 20:00-22:00
   venue: Dulo (2nd floor)
   desc:
-    - "MusicMakers Hacklab participants have been inventing collaborative performances that propose ways in which music can be a speculative medium for sustainability at a time when we face now-inevitable shifts in the world’s politics and climate. Just- created performance designs, circuits, code, and ideas will be put to the test in front of a live audience as a multidisciplinary group of creative performers share the work they've constructed over the course of the WSK festival week. Expect new work in live musical performance, movement, visuals, and surprises."
+    - '“Maiba” – in Tagalog, “to change”. We are here, in the daylight, in ordinary reality. Often, to say or do something with power, we have this idea that breaking on through to the other side (to quote Jim Morrison) requires that we transform ourselves. With sound. With light, with objects, with costumes, with ritual, with words. To get across, we have to break — and break with — the daylight world of appearances. -Tad Ermitaño'
+    - 'The MusicMakers Hacklab is a performance laboratory open to anyone interested in attempting together what is inconceivable alone and aims to invent tools and strategies for improvised play. By encouraging new collaborative performances which explore music as a speculative medium for sustainability, wherein artists work together to generate rather than compete for resources, to propagate rather than consume, the MusicMakers Hacklab seeks to provide a platform for inspiration and knowledge exchange, allowing practitioners from a range of disciplines to create and play, and to find new ways of exploring the current and future potentials that lie in interfacing music with technology and other fields of practice.'
+    - 'MusicMakers Hacklab invited submissions exploring the question of how performance practice and invention can change the performer, how its transformative potential can make the performer visible or entirely invisible, and how collaborations can remake each other’s roles.'
+    - 'Split into groups, the selected Hacklab participants were encouraged to collaboratively develop ideas over the course of a week, allowing participants to fully utilize one’s unique skill set while learning from each other and adapting to a joint workflow. In this program, the resulting projects will be presented in front of a live audience. These might be high tech or low tech, speculative or punk, involving projection, puppetry, prosthetics, and makeup, in instruments that reshape our bodies and voices, or in the metamorphic power of sound itself. '
+    - 'The Hacklab is a place for working together and merging skills. It is not a workshop but an open laboratory where anyone can freely experiment and participate in collective learning.'
+
 -
   title: FLOATERS STAGE
   class: floaters
@@ -65,7 +72,7 @@ content:
   time: 16:30-18:00
   venue: Streets of Poblacion
   desc:
-    - 'FLOATERS STAGE is a two-pronged special program which will take place along the streets and in the open public spaces of Poblacion, Makati. It will feature two collaborations: one between avant-pop electronica solo project Joee & I and the Poblacion Marching Band and the other between musician Yennu Ariendra and producer-publisher Erik Tuban wherein they will both present renditions of vernacular musical genres prevalent in their respective areas of residence: dangdut koplo and budots.'
+    - 'FLOATERS STAGE is a two-pronged special program which will take place along the streets and in the open public spaces of Poblacion, Makati. Featuring two unorthodox pairings, this program will start with a street performance from avant-pop electronica solo project Joee & I along with the Poblacion Marching Band. This parade will lead to a secret final stage where musician Yennu Ariendra and producer-publisher Erik Tuban will jointly perform the results of their brief studio collaboration conceptually and sonically hinged on vernacular musical genres prevalent in their respective areas of residence: dangdut koplo and budots.'
 -
   title: AUDIO TOUR
   class: audio-tour

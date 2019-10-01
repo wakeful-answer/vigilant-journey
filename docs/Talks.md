@@ -21,6 +21,7 @@ content:
 -
   title: Feedback Forum 2019
   class: feedback
+  time: 'Panel 1: 13:30 - 15:00, Panel 2: 15:30 - 17:00'
   images:
     - feedback-forum.jpg
   artists:

@@ -39,7 +39,8 @@ content:
   time: 22:00-03:00
   venue: XX XX
   desc:
-    - "Elephant is a celebration of Manila’s rave culture, a scene that disregards gender norms and sexual orientations, a party where the colorful and the outrageous collide in a space that proudly welcomes it."
+    - "A celebration of Manila’s uniquely exhilarating rave culture, ELEPHANT is the mise-en-scène of latex pop energy where Manila’s oddballs come to play every week. It is a party where the colorful and outrageous collide in a space that proudly welcomes it. Here, people coalesce under piercing strobe lights dancing for the right to unadulterated self-expression. Carving out a space of their own, where one could freely experiment, ELEPHANT explores the various ways one can be free. For this program, WSK collaborates with ELEPHANT to present WSK X ELEPHANT, a night of dark dance tracks, pounding techno, grind-gabber amalgamations and other polystylistic concoctions, glitchy projections, and a special hypersexual performance involving basketball, videoke, and kwek-kwek."
+    - 'Featuring: Cedrik Fermont, Dignos x Adrianne, .G/FK/DS, Gabber Modus Operandi, Peter Kirn, Pisitakun and a “A Bwakeoke Night Performance” from Madam Bwakeva and extreme.meth.in.my.bloodstream (with special participation of Bwakeboyz)'
 -
   title: "TORTURE GARDEN: WSK x NOISEBATH PH"
   class: torture
@@ -55,10 +56,19 @@ content:
   time: 22:00-02:00
   venue: Limbo  
   desc:
-    - 'WSK and Noisebath PH collaborate once again to orchestrate TORTURE GARDEN, a purgatorial night of raw, visceral noise. Featuring artists from different parts of the Philippines and its neighboring territories, TORTURE GARDEN presents music as a coprophagic organism, unable to break away from a cycle of excretion and regurgitation. Equipped with contact mics, circuit-bent machines, and extended techniques, these artists — which include post-apocalyptic metal fetishists and a sleaze-and-schlock noisegrind outfit — scavenge from sonic refuse, dive neck-deep into music’s landfill, to unleash atonal and infernal torrents, test the thresholds of listeners, ultimately in pursuit of aural extremities.'
+    - 'WSK and Noisebath PH collaborate once again to orchestrate TORTURE GARDEN, a purgatorial night of raw, visceral noise. A demolition derby featuring luminaries of underground noise scenes from Manila, Bali, Tokyo, and the Visayas region, TORTURE GARDEN presents music as a coprophagic organism, unable to break away from a cycle of excretion and regurgitation. Equipped with contact mics, circuit-bent machines, and extended techniques, these artists — which include post-apocalyptic metal fetishists and a sleaze-and-schlock noisegrind outfit — scavenge from sonic refuse, dive neck-deep into music’s landfill, to unleash atonal and infernal torrents, test the thresholds of listeners, ultimately in pursuit of aural extremities.'
 -
   title: "CONCURRENT SHOW: POLTERGEIST"
   class: poltergeist
+  artists:
+    - Dharma
+    - Cedrik Fermont
+    - Ali Fyffe
+    - mizutama
+    - Tusa Montes
+    - Cheryl Ong
+    - Ignaz Schick
+    - Tadashi Yonago
   images:
     - poltergeist.jpg
   date: Friday, October 25
