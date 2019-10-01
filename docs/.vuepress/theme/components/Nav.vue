@@ -18,9 +18,11 @@
             class=""
           ><span class="underline">{{item.text}}</span> <img class="arrow-link" :src="$withBase('/arrow-link.svg')" /></router-link>
         </li>
-        <router-link
-          :to="'/nusasonic'"
-        > <img class="nusa-link" :src="$withBase('/partners/nusasonic-logo.svg')" /> </router-link>
+        <li>
+          <router-link
+            :to="'/nusasonic'"
+          > <img class="nusa-link" :src="$withBase('/partners/nusasonic-logo.svg')" /> </router-link>
+        </li>
       </ul>
     </nav>
   </header>
