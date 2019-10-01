@@ -240,12 +240,19 @@ export default {
 
                 this.resize();
                 this.animate();
+
+                let colorChoices = ['#FFFFFF', '#B2B2B2', '#B3A16E', '#BF873C', '#CCB198', '#C199A0', '#A5BECD', '#92B4AF', '#B0BDA2'];
+                let textureChoices = ['discTexture','triangleTexture','squareTexture','stripeTexture','xTexture'];
+
+                setInterval(function(){
+                  shaderMaterial.uniforms.texture.value = eval(textureChoices[Math.floor(Math.random() * textureChoices.length)]);
+                  let colorObject = new THREE.Color( colorChoices[Math.floor(Math.random() * colorChoices.length)] );
+                  shaderMaterial.uniforms.customColor.value = [colorObject.r,colorObject.b,colorObject.g];
+                }, 2000);
             }
 
 
         }.bind(this) );
-
-        //this.scene.add( gltf.scene );
 
       }, undefined, function ( error ) {
 
