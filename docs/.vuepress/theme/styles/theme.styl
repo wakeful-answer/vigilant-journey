@@ -46,7 +46,6 @@ a
   color #fff
   border none
   outline none
-  text-decoration none
   color inherit
   -webkit-tap-highlight-color rgba(0, 0, 0, 0)
   -webkit-tap-highlight-color transparent
@@ -79,6 +78,7 @@ a
   margin 3rem 0
   +mobile()
     margin 0
+    padding 0
 
 .theme-container
   height 100%
@@ -96,7 +96,7 @@ a
     padding 2rem
   +mobile()
     min-height 200px
-    margin-top 6rem
+    margin-top 6.5rem
     padding 20px
 
 .event-container
@@ -212,12 +212,12 @@ a
     color #fff
 
 .program-links
-  overflow-x hidden
   margin-top 5rem
   font-size 5rem
   position absolute
   +mobile()
     font-size 2rem
+    overflow-x hidden
   .big-arrow
     visibility hidden
   li:hover .big-arrow
@@ -324,10 +324,18 @@ a
   +tablet()
     font-size .8rem
   +mobile()
-    font-size .5rem
-    padding 0 2em
+    font-size .8rem
+    padding 1rem 2rem
+    border-bottom 1px solid white
   .list
     padding-left 0
+    +mobile()
+      display flex
+      flex-wrap wrap
+    li
+      +mobile()
+        flex 1 0 25%
+        margin 5px
 
 
 
@@ -377,11 +385,19 @@ a
   li
     padding 15px 15px 15px 0
     display inline-block
+    +mobile()
+      padding 5px 5px 5px 0
     &:hover .underline
       padding-bottom 10px
       border-bottom 1px solid #fff
-    &:last-child
-      margin-right -15px
+
+footer
+  +mobile()
+    .list
+      display block
+  li:last-child
+    margin-right -15px
+
 
 .arrow-link
   width 25px
@@ -442,6 +458,8 @@ iframe
 .wsk-logo
   width 300px
   margin auto
+  +mobile()
+    width 150px
 
 .frontpage-logo, .subtitle
   z-index 2000
