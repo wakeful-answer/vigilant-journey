@@ -403,11 +403,14 @@ footer
     .list
       display block
   li:last-child
-    margin-right -15px
+    +mobile()
+      margin-right -15px
 
 
 .arrow-link
   width 25px
+
+.nav-bar .arrow-link
   +mobile()
     display none
 
