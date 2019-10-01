@@ -31,5 +31,6 @@ content:
   images:
     - retrospectivity.jpg
   desc:
-    - 'An interactive library, retrospective multimedia show documenting 10+ years of media art in the Philippines.'
+    - 'WSK presents its digitized archive consisting of more than 10 years worth of material — photographs, posters, logos, program texts, and more from various eras — organized chronologically. Having collaborated with more than 300 local and international artists and groups in its decade of activity, this project not only offers a retrospective glimpse into the development of sound and new media art in Manila since 2008, but also activates its materials by offering itself as an entry point and launch pad for independent research, feeding curiosity and generating a multitude of tangents.'
+    - 'WSK X RetroSpectivity is accessible onsite and via one’s phone from October 15 to 27.'
 ---

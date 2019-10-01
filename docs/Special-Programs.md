@@ -5,7 +5,7 @@ class: special-programs
 layout: Layout
 content:
 -
-  title: PIDGIN CARTOGRAPHY: Experiments on Graphic Notation
+  title: 'PIDGIN CARTOGRAPHY: Experiments on Graphic Notation'
   artists:
     - Gangan Series
   class: gangan-performance
@@ -43,7 +43,7 @@ content:
 
     - 'Lastly, Ken Furudate will provide a mesmerizing audiovisual performance wholly generated through digital means. Deeply influenced by minimalist aesthetics, Furudate concentrates on the simplest elements such as sine waves, pulses, dots, lines, and loop functions, and scales them up to states of overwhelming complexity, at times featuring smooth and transfixing moiré-fringed vortices and subtly-oscillating washes of spectral noise.'
 -
-  title: SHAPESHIFTERS: MUSICMAKERS HACKLAB 2019 @ WSK
+  title: 'SHAPESHIFTERS: MUSICMAKERS HACKLAB 2019 @ WSK'
   artists:
     - Peter Kirn
     - Tad Ermitano
@@ -81,8 +81,10 @@ content:
   images:
     - audio-tour.jpg
   date: Sunday, October 27
-  venue: MRT-LRT1, Escolta
+  time: 14:00 - 15:00
+  venue: MRT-LRT1, First United Building Escolta
   desc:
+    - 'Meet-up at First United Building, 413 Escolta St., Binondo, Manila'
     - '“Audio Tour,” a recurring project of music producer and artist escuri, is a soundwalk activity which encourages active listening among participants as they wander around specific locations as an alternative way of perceiving and relating to one’s environment. This iteration invites the audience to stroll through the historic street of Escolta in Manila. Designed to encourage an awareness of the omnipresence of sound, this program treats spaces as living organisms, each possessing their own unique character, communicating its stories through sound.'
     - 'Jett Ilagan, a.k.a. escuri, is a music producer, sound and visual artist from Laguna, Philippines. His audio works explore sound and particularly the idea of “cultural soundscapes” through various methods such as field recordings and personal encounters with the subject environment and its locals.'
 -
@@ -95,12 +97,13 @@ content:
   images:
     - parade.jpg
   date: Sunday, October 27
+  time: 15:30 - 16:25
   venue: Arroceros Forest Park
   desc:
-    - 'PARADE is a sonic performance event that will take place at different parts of the Arroceros Forest Park. Three artists — mizutama, Kayu Nakada, and Tadashi Yonago — will invite the audience to position themselves anywhere within the park and to produce sound in any way they can, using whatever instrument they have on hand. FM transmitters and radios will be supplied by the artists to willing participants who may or may not use the devices in any way they see fit.'
+    - 'PARADE is a sonic performance event that will take place at different parts of the Arroceros Forest Park. Three artists — mizutama, Kayu Nakada, and Tadashi Yonago — will invite local musicians to participate in a performance which will be broadcasted via FM transmitters. By distributing radios to the audience and encouraging them to manipulate the device in any way they see fit, the artists aim to reaffirm the idea of listening as an active process, thereby establishing the audience as equal collaborators in this aural gestalt.'
     - 'All three artists share a DIY ethic, a fascination with electronics and aleatoric processes, and a tendency to find beauty in everyday life. These sensibilities are evident in this program which aims to activate the site as a sanctuary for ludic interactions.'
 -
-  title: RAMBULAN SA LAWTON UNDERPASS
+  title: RAMBULAN SA LAWTON UNDERPASS (TROUBLE AT LAWTON UNDERPASS)
   class: rambulan
   images:
     - rambulan.jpg
@@ -108,8 +111,9 @@ content:
     - Chaos Non Musica
     - Noisebath PH
   date: Sunday, October 27
+  time: 16:25 - 17:10
   venue: Lawton Underpass
   desc:
-    - "Two scenes collide in a notoriously dangerous underpass avoided by most pedestrians who would rather play real-life Frogger than risk getting mugged at knifepoint. Newly renovated, with its grime-caked tiled surfaces haphazardly scrubbed and its inhabitants dehumanized and evicted, the underpass is slowly regaining the trust of the commuters it terrified in the past."
+    - "Two scenes collide in a notoriously dangerous underpass avoided by most pedestrians who would rather play real-life Frogger than risk getting mugged at knifepoint. Newly renovated, with its grime-caked tiled surfaces haphazardly scrubbed and its inhabitants evicted and dehumanized, the underpass is slowly regaining the trust of the commuters it terrified in the past."
     - "In this program, two communities — the Bali-based DIY noise festival Chaos Non Musica and Manila-based experimental collective Noisebath PH — square off to once again disrupt the area’s foot traffic and jolt passersby out of their 9-to-5 stupor with their careful selection of guttural growls and banshee screams, skull-drilling skronks and grating waves of static."
 ---

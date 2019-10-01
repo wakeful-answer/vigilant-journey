@@ -77,7 +77,7 @@ content:
   desc:
     - 'In the remains of a burned down ancestral house, abandoned until its recent repurposing, creaking floorboards and harsh echoes bouncing off thick concrete walls are swallowed by otherworldly tones, glacial glissandos, and atonal shrieks. They bleed into each other, ebbing and flowing, as eight musicians — of distinct backgrounds and divergent sensibilities — continue to speak in tongues, slip in and out of time, volume, and idioms, and divine phantasmic textures from electro-acoustic mediums. Lurking from different parts of the dilapidated space, this cracked and scattered octet emits crackling static and shimmering skronks, tone clusters and sound masses, as each musician follows their own psychic streams, communally taking part in this suburban disturbance.'
 -
-  title: "CONCURRENT SHOW: HIVE"
+  title: "CONCURRENT SHOW: BABEL"
   class: hive
   images:
     - hive.jpg
@@ -90,7 +90,7 @@ content:
   time: 22:00-03:00  
   venue: Dulo (2nd floor)
   desc:
-    - 'Hive will be the locus of intersection for a variety of different hives, a site for exchange between independent bands and initiatives, a venue featuring performances by a number independent artists who work within the confines of the familiar yet are in continual pursuit of the new.'
+    - 'The hypothetical archive documenting the entirety of rock music is a sonic slag heap of wailing guitars, howling vocals, and other unholy utterances from which emerges a discernible continuum of tired forms and themes, stylistic artifices and hackneyed devices accumulated in less than a century. However, rock and roll’s promise of raw power and the wild electricity of live performance never diminished for some. These iconoclasts, coming all the way from Cavite, the Visayas region, and Singapore, harness and challenge two of rock music’s defining characteristics — its relative formal simplicity and its commitment to sheer intensity — via oblique approaches, expanding, disrupting, and redefining the genre’s syntax with the integration of unorthodox elements, and ultimately, opening up new paradigms. In BABEL, the shared Promethean project of galvanising the presumably exhausted idiom of rock through the mutually destructive interplay of polarities — the primal and cerebral, noise and nuance, convention and deviance, rabid fervor and analytic detachment — is on full display.'
 -
   title: 'CLUB NIGHT: VISTRAX CONCERT'
   class: vistrax-concert
@@ -114,16 +114,17 @@ content:
     - Datu Arellano
     - Laure Boer and collaborators
     - Erick Calilan
+    - Daisuke Ishida
     - Meuko! Meuko! x NAXS corp.
   images:
     - spectres.jpg
   date: Sunday, October 27  
-  time: 19:00-21:30
+  time: 18:00 - 22:30
   venue: Rajah Sulayman Theater, Intramuros
   desc:
     - "Acting as the festival’s closing concert, SPECTRES will feature four electro-acoustic and multimedia acts, all of whom can be considered as artists working in the ambient idiom, or music which foregrounds transient textures over the rigid grids rhythm and structure imposes on sound. In an open-air theater located within the gates of a rebuilt Spanish colonial-era citadel, harmonically-rich and immersive walls of sound conjure remote atmospheres — of uncharted territories, otherworldly domains, and dystopian metropolises. Haunted by the weight of history, of centuries-long subjugation, and scarred with traces of the global catastrophe which almost obliterated it, the theater provides new dimensions to the readymade spaces often said to be evoked by ambient music."
 -
-  title: FESTIVAL CLOSING PARTY
+  title: 10 TAONG WALANG DIYOS! THE WSK AFTER-PARTY (10 GODLESS YEARS! THE WSK AFTER-PARTY)
   class: closing
   images:
     - closing-party.jpg
@@ -132,10 +133,10 @@ content:
     - Libya Montes
     - Alyas Morgus
   date: Sunday, October 27  
-  time: 21:30-03:00
+  time: 21:30-01:30
   venue: Batala Bar, Intramuros
   desc:
-    - WSK caps off its 10th year anniversary festival with DJ performances from Bruder, Libya Montes, and Alyas Morgus.
+    - WSK caps off its 10th year anniversary festival, bidding farewell to a decade of debauchery and godlessness before its hibernation and reformatting, with an open party featuring DJ performances from Bruder, Libya Montes, and Alyas Morgus whose styles encompass Berlin-style techno, harsh noise, and budots.
 
 
 ---
