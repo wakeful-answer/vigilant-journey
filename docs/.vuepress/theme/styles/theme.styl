@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,.list,.program-page-title
 p
   line-height: 1.4rem
 
-button, textarea, input, select, a, a:hover, a:click, a:visited
+a
   color #fff
   border none
   outline none
@@ -55,6 +55,20 @@ button, textarea, input, select, a, a:hover, a:click, a:visited
   -moz-user-select none
   -ms-user-select none
    user-select none
+
+// button, textarea, input, select, a, a:hover, a:click, a:visited
+//   color #fff
+//   border none
+//   outline none
+//   text-decoration none
+//   color inherit
+//   -webkit-tap-highlight-color rgba(0, 0, 0, 0)
+//   -webkit-tap-highlight-color transparent
+//   -webkit-user-select none
+//   -khtml-user-select none
+//   -moz-user-select none
+//   -ms-user-select none
+//    user-select none
 
 #app
   height 100%
@@ -182,6 +196,11 @@ button, textarea, input, select, a, a:hover, a:click, a:visited
     top 1.8rem
     left 1.8rem
     width 30px
+  +mobile()
+    top 1rem
+    left 1rem
+    width 20px
+
 
 .list
   margin 0
@@ -193,6 +212,7 @@ button, textarea, input, select, a, a:hover, a:click, a:visited
     color #fff
 
 .program-links
+  overflow-x hidden
   margin-top 5rem
   font-size 5rem
   position absolute
