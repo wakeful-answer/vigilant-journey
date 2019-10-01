@@ -97,8 +97,8 @@
         </div>
       </div>
     </div>
-    <div id="three-canvas" v-bind:class="{ opacitydown: !this.$page.frontmatter.home }">
-    </div>
+    <!-- <div id="gui-container" v-if="this.$page.frontmatter.home"></div> -->
+    <div id="three-canvas" v-bind:class="{ opacitydown: !this.$page.frontmatter.home }"></div>
     <Footer v-if="!this.$page.frontmatter.home && !this.$page.frontmatter.programs" />
   </div>
 </template>
@@ -121,7 +121,17 @@ export default {
       camera: null,
       scene: null,
       renderer: null,
-      mesh: null
+      mesh: null,
+      conf: null,
+      gui: null,
+      glTFGeometry: null,
+      discTexture: null,
+      stripeTexture: null,
+      triangleTexture: null,
+      xTexture: null,
+      squareTexture: null,
+      shaderMaterial: null,
+      intervalAnimation: null
     }
   },
   methods: {
@@ -129,6 +139,7 @@ export default {
     console.log(item)
   },
   init: function() {
+
       let canvas = document.getElementById('three-canvas');
 
       this.renderer = new THREE.WebGLRenderer({antialias: true, alpha: true});
@@ -152,16 +163,18 @@ export default {
       light.position.set(-100, 200, 100);
       this.scene.add(light);
 
-      this.mesh = null;
+      // this.mesh = null;
+      // this.glTFGeometry = null;
       this.mouse = new THREE.Vector2(0,0);
-      this.glTFGeometry = null;
 
-      let discTexture = null;
-      let triangleTexture = null;
-      let xTexture = null;
-      let squareTexture = null;
-      let stripeTexture = null;
-      let shaderMaterial = null;
+      this.discTexture = null;
+      this.triangleTexture = null;
+      this.xTexture = null;
+      this.squareTexture = null;
+      this.stripeTexture = null;
+
+      this.shaderMaterial = null;
+
       let textureSwitch = 0;
 
       let defaultAnimation = null;
@@ -178,18 +191,18 @@ export default {
                 this.glTFGeometry = child.geometry;
                 this.glTFGeometry.center();
 
-                discTexture = textureLoader.load( './gradient-disc-2.png' );
-                triangleTexture = textureLoader.load( './gradient-triangle.png' );
-                squareTexture = textureLoader.load( './gradient-square.png' );
-                stripeTexture = textureLoader.load( './gradient-stripe.png' );
-                xTexture = textureLoader.load( './plain-x.png' );
+                this.discTexture = textureLoader.load( './gradient-disc-2.png' );
+                this.triangleTexture = textureLoader.load( './gradient-triangle.png' );
+                this.squareTexture = textureLoader.load( './gradient-square.png' );
+                this.stripeTexture = textureLoader.load( './gradient-stripe.png' );
+                this.xTexture = textureLoader.load( './plain-x.png' );
 
                 let color = new THREE.Color();
                 color.setHSL(0,0,0.7);
 
                 let customUniforms =
                 {
-                  texture:  { type: "t", value: discTexture },
+                  texture:  { type: "t", value: this.discTexture },
                   customColor: { type: "vec3", value: [color.r,color.g,color.b] },
                   frequency: { type: "f", value: 100}
                 };
@@ -213,7 +226,7 @@ export default {
                     yDistort.push(0.003);
           			}
 
-                shaderMaterial = new THREE.ShaderMaterial(
+                this.shaderMaterial = new THREE.ShaderMaterial(
                 {
                    uniforms: customUniforms,
                    vertexShader: Fragment.vertexShader,
@@ -230,27 +243,16 @@ export default {
                 this.glTFGeometry.addAttribute( 'xDistort', new THREE.Float32BufferAttribute( xDistort, 1).setDynamic( true ) );
                 this.glTFGeometry.addAttribute( 'yDistort', new THREE.Float32BufferAttribute( yDistort, 1).setDynamic( true ) );
 
-                this.mesh = new THREE.Points( this.glTFGeometry, shaderMaterial );
+                this.mesh = new THREE.Points( this.glTFGeometry, this.shaderMaterial );
 
                 this.mesh.position.set(0, 0, 0);
                 this.mesh.dynamic = true;
                 this.mesh.sortParticles = true;
 
                 this.scene.add( this.mesh );
-
-                this.resize();
                 this.animate();
 
-                let colorChoices = ['#FFFFFF', '#B2B2B2', '#B3A16E', '#BF873C', '#CCB198', '#C199A0', '#A5BECD', '#92B4AF', '#B0BDA2'];
-                let textureChoices = ['discTexture','triangleTexture','squareTexture','stripeTexture','xTexture'];
-
-                setInterval(function(){
-                  shaderMaterial.uniforms.texture.value = eval(textureChoices[Math.floor(Math.random() * textureChoices.length)]);
-                  let colorObject = new THREE.Color( colorChoices[Math.floor(Math.random() * colorChoices.length)] );
-                  shaderMaterial.uniforms.customColor.value = [colorObject.r,colorObject.b,colorObject.g];
-                }, 2000);
             }
-
 
         }.bind(this) );
 
@@ -292,11 +294,11 @@ export default {
 
 
         if (distance < 0.15 ) {
-          sizes[i] = 1 * ( 0.1 + Math.sin( 0.1 * i + time ) );
-          displacement[i] += 0.007 * (i * 0.002);
-          rotation[i] = 0.001 * ( 0.1 + Math.sin( 0.1 * i + time ) );
-          xDistort[i] = 0.001 * (i * 0.002);
-          yDistort[i] = 0.001 * (i * 0.002);
+          sizes[i] = this.conf.particleSize * ( 0.1 + Math.sin( 0.1 * i + time ) );
+          displacement[i] += this.conf.dispersionSpeed * (i * 0.002);
+          rotation[i] = this.conf.textureRotationSpeed * ( 0.1 + Math.sin( 0.1 * i + time ) );
+          xDistort[i] = this.conf.textureXDistort * (i * 0.002);
+          yDistort[i] = this.conf.textureYDistort * (i * 0.002);
 
         }
         else {
@@ -340,15 +342,76 @@ export default {
     this.mouse.x = ( event.clientX /  window.innerWidth ) * 2 - 1;
     this.mouse.y = - ( event.clientY /  window.innerHeight ) * 2 + 1;
   },
+  randomize: function() {
+
+    let colorChoices = ['#FFFFFF', '#B2B2B2', '#B3A16E', '#BF873C', '#CCB198', '#C199A0', '#A5BECD', '#92B4AF', '#B0BDA2'];
+    let textureChoices = ['discTexture','triangleTexture','squareTexture','stripeTexture','xTexture'];
+
+    this.intervalAnimation = setInterval(function(){
+      this.shaderMaterial.uniforms.texture.value = eval('this.'+(textureChoices[Math.floor(Math.random() * textureChoices.length)]));
+      let colorObject = new THREE.Color( colorChoices[Math.floor(Math.random() * colorChoices.length)] );
+      this.shaderMaterial.uniforms.customColor.value = [colorObject.r,colorObject.b,colorObject.g];
+      // shaderMaterial.uniforms.frequency.value = Math.random() * 60;
+      this.conf.particleSize = this.getRandomArbitrary(0.5,2);
+      this.conf.dispersionSpeed = this.getRandomArbitrary(0,0.01);
+      this.conf.textureRotationSpeed = this.getRandomArbitrary(0,10);
+      this.conf.textureXDistort = this.getRandomArbitrary(0,0.1);
+      this.conf.textureYDistort = this.getRandomArbitrary(0,0.1);
+      this.conf.distortFrequency = this.getRandomArbitrary(0,10);
+
+      // for (let i = 0; i < this.gui.__controllers.length; i++) {
+      //   this.gui.__controllers[i].updateDisplay();
+      // }
+    }.bind(this), 3000);
+
+  },
   // handleScroll (event) {
   //   //this.isUserScrolling = (window.scrollY > 0);
   // }
   },
   mounted() {
-    // window.addEventListener('scroll', this.handleScroll);
+    import('dat.gui').then(module => {
+
+      // this.gui = new module.GUI({ autoPlace: false });
+      //
+      // let guiContainer = document.getElementById('gui-container');
+      // guiContainer.appendChild(this.gui.domElement);
+
+      let Configuration = function() {
+        // this.meshColor = '#B2B2B2';
+        this.dispersionSpeed = 0.001;
+        this.particleSize = 1;
+        this.texture = eval('this.discTexture');
+        this.textureRotationSpeed = 1;
+        this.textureXDistort = 0.003;
+        this.textureYDistort = 0.003;
+        this.distortFrequency = 4;
+      }
+
+      this.conf = new Configuration();
+      // let textureController = this.gui.add( this.conf, 'texture', ['discTexture','triangleTexture','squareTexture','stripeTexture','xTexture']);
+      // let colorMeshController = this.gui.add( this.conf, 'meshColor', ['#FFFFFF', '#B2B2B2', '#B3A16E', '#BF873C', '#CCB198', '#C199A0', '#A5BECD', '#92B4AF', '#B0BDA2']);
+      // let dispersionController = this.gui.add( this.conf, 'dispersionSpeed', 0, 0.01);
+      // let particleSizeController = this.gui.add( this.conf, 'particleSize', 0.5, 2);
+      // let rotationController = this.gui.add( this.conf, 'textureRotationSpeed', 0, 10);
+      // let textureXDistortController = this.gui.add( this.conf, 'textureXDistort', 0, 0.1);
+      // let textureYDistortController = this.gui.add( this.conf, 'textureYDistort', 0, 0.1);
+      // let textureDistortFrequencyController = this.gui.add( this.conf, 'distortFrequency', 0, 10);
+      //
+      // textureDistortFrequencyController.onChange( function( distortValue  )
+      // {
+      //   this.shaderMaterial.uniforms.frequency.value = distortValue;
+      // }.bind(this));
+      //
+      // this.gui.close();
+    });
+
+    this.init();
+    this.resize();
+    this.randomize();
+
     window.addEventListener('resize', this.resize);
     window.addEventListener('mousemove', this.windowMouseMove);
-    this.init();
   }
 }
 

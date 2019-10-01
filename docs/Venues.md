@@ -36,10 +36,7 @@ venues:
   bar / club in the heart of poblacion that has a
   laid back, artsy vibe, with interiors that resemble an Old Manila
   home and a signature disco ball to complete the retro look.'
-
 ---
-
-
 <!-- <h2>LAWTON UNDERPASS</h2>
 
 <h2>RAJAH SULAYMAN THEATER, INTRAMUROS</h2>
