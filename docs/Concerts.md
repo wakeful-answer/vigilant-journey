@@ -35,6 +35,8 @@ content:
     - Gabber Modus Operandi
     - Cedrik Fermont
     - 'G/FK/DS'
+    - 'extreme.meth.in.my.bloodstream'
+    - 'Madam Bwakeva and the Bwakeboyz'
   date: Friday, October 25
   time: 22:00-03:00
   venue: XX XX
