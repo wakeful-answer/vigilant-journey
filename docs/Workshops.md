@@ -2,7 +2,7 @@
 programPage: true
 title: workshops
 class: workshops
-date: 21-23 oct
+date: 17-23 oct
 layout: Layout
 content:
 -

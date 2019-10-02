@@ -2,7 +2,7 @@
 programPage: true
 title: concerts
 class: concerts
-date: 12-28 oct
+date: 24-27 oct
 layout: Layout
 content:
 -
