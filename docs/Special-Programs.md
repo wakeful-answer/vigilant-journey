@@ -21,7 +21,7 @@ content:
 
     - "Aside from the results of the week-long residency, the ensemble will perform two other scores: Tad Ermitaño’s “Malaganito 1.0” — a video score that only partially specifies and loosely suggests moods and rhythms — and another from Ignaz Schick, a Berlin-based experimental musician who specializes in free jazz and improvisation."
 -
-  title: END OF FRAME
+  title: Opening Concert: END OF FRAME
   class: live-cinema
   artists:
     - Makino Takashi
