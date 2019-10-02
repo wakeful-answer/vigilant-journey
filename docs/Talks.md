@@ -13,6 +13,8 @@ content:
   images:
     - sine-wave-talk.jpg
   date: October 16
+  time: 16:00-19:00
+  venue: Benchan Art Suite, Arete, Ateno de Manila University
   desc:
     - 'Concurrent with the exhibition of their installation “stay” (2017), the four artists comprising The Sine Wave Orchestra — Ken Furudate, Kazuhiro Jo, Daisuke Ishida, and Mizuki Noguchi — will discuss their individual practices, both in art and academia, and interests which encompass a diverse range of subjects including acoustics, contemporary and time-based media, minimalist aesthetics, practice- based research, the expressive dimension of recent technology, the perception of sound, and new perspectives on spatialities.'
     - 'They will also talk about the history of The Sine Wave Orchestra: its genesis, philosophy, methodologies, and previous multimedia installations and other projects. Lastly, the four will discuss their work “stay” (2017), its conceptualization, iterations, and manifestations.
@@ -21,13 +23,14 @@ content:
 -
   title: Feedback Forum 2019
   class: feedback
-  time: 'Panel 1: 13:30 - 15:00, Panel 2: 15:30 - 17:00'
   images:
     - feedback-forum.jpg
   artists:
     - WSK
     - Nusasonic
   date: October 22-24
+  time: 'Panel 1: 13:30 - 15:00 | Panel 2: 15:30 - 17:00'
+  venue: Benchan Art Suite, Arete, Ateno de Manila University
   desc:
     - "The WSK Feedback Forum functions as the platform's critical feedback mechanism configured towards the articulation of practices and communities, the encouragement of historiographic and critical methodologies to consequently spark innovation and new directions."
 
