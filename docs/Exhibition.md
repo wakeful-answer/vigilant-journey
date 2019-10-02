@@ -9,7 +9,8 @@ content:
   title: The SINE WAVE ORCHESTRA stay
   class: sine-wave
   date: OCTOBER 15-27
-  venue: Arete, Ateneo de Manila University
+  venue: 'Doreen Black Box, Arete, Ateneo de Manila University'
+  time: '16:30 Press Preview | 18:00 Vernissage'
   artists:
     - The SINE WAVE ORCHESTRA
   images:
@@ -25,7 +26,8 @@ content:
   title: WSK X RetroSpectivity
   class: retrospectivity
   date: OCTOBER 15-28
-  venue: Arete, Ateneo de Manila University
+  venue: 3rd Floor Lobby, Arete, Ateneo de Manila University
+  time: 11:00-19:00
   artists:
     - WSK
   images:
