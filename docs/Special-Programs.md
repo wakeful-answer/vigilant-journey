@@ -93,6 +93,10 @@ content:
     - mizutama
     - Kayu Nakada
     - Tadashi Yonago
+    - Tad Ermitano
+    - Magyar Tuazon
+    - Jing Garcia
+    - Ken Furudate
   class: parade
   images:
     - parade.jpg
