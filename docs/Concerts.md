@@ -13,7 +13,6 @@ content:
     - Bruder
     - LAFIDKI
     - Miko Revereza
-    - Mumuy
     - Y-DRA
   images:
     - swarm.jpg
@@ -28,13 +27,12 @@ content:
   images:
     - elephant.jpg
   artists:
-    - Martin de Mesa + Jeona
     - Dignos x Adrianne
     - Peter Kirn
-    - Pisitakun Kuantalaeng
+    - Pisitakun
     - Gabber Modus Operandi
-    - Cedrik Fermont
     - 'G/FK/DS'
+    - Betty Apple
     - 'extreme.meth.in.my.bloodstream'
     - 'Madam Bwakeva and the Bwakeboyz'
   date: Friday, October 25
@@ -42,7 +40,7 @@ content:
   venue: XX XX
   desc:
     - "A celebration of Manila’s uniquely exhilarating rave culture, ELEPHANT is the mise-en-scène of latex pop energy where Manila’s oddballs come to play every week. It is a party where the colorful and outrageous collide in a space that proudly welcomes it. Here, people coalesce under piercing strobe lights dancing for the right to unadulterated self-expression. Carving out a space of their own, where one could freely experiment, ELEPHANT explores the various ways one can be free. For this program, WSK collaborates with ELEPHANT to present WSK X ELEPHANT, a night of dark dance tracks, pounding techno, grind-gabber amalgamations and other polystylistic concoctions, glitchy projections, and a special hypersexual performance involving basketball, videoke, and kwek-kwek."
-    - 'Featuring: Cedrik Fermont, Dignos x Adrianne, .G/FK/DS, Gabber Modus Operandi, Peter Kirn, Pisitakun and “A Bwakeoke Night Performance” from Madam Bwakeva and extreme.meth.in.my.bloodstream (with special participation of Bwakeboyz)'
+    - 'Featuring: Dignos x Adrianne, .G/FK/DS, Gabber Modus Operandi, Peter Kirn, Betty Apple, Pisitakun and “A Bwakeoke Night Performance” from Madam Bwakeva and extreme.meth.in.my.bloodstream (with special participation of Bwakeboyz)'
 -
   title: "TORTURE GARDEN: WSK x NOISEBATH PH"
   class: torture
@@ -64,7 +62,6 @@ content:
   class: poltergeist
   artists:
     - Dharma
-    - Cedrik Fermont
     - Ali Fyffe
     - mizutama
     - Tusa Montes
@@ -84,7 +81,6 @@ content:
   images:
     - hive.jpg
   artists:
-  - SABA
   - Bombo Pluto Ova
   - Elemento
   - The Observatory
@@ -133,12 +129,11 @@ content:
   artists:
     - Bruder
     - Libya Montes
-    - Alyas Morgus
   date: Sunday, October 27  
   time: 21:30-01:30
   venue: Batala Bar, Intramuros
   desc:
-    - WSK caps off its 10th year anniversary festival, bidding farewell to a decade of debauchery and godlessness before its hibernation and reformatting, with an open party featuring DJ performances from Bruder, Libya Montes, and Alyas Morgus whose styles encompass Berlin-style techno, harsh noise, and budots.
+    - WSK caps off its 10th year anniversary festival, bidding farewell to a decade of debauchery and godlessness before its hibernation and reformatting, with an open party featuring DJ performances from Bruder and Libya Montes whose styles encompass Berlin-style techno, harsh noise, and budots.
 
 
 ---
