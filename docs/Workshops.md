@@ -14,7 +14,7 @@ content:
   images:
     - 3d-workshop.jpg
   date: October 21-23
-  venue: "College of 66', Arete, Ateneo de Manila University"
+  venue: "College of 66', Arete (3rd floor), Ateneo de Manila University"
   time: 14:00-17:30
   desc:
     - "This three-day workshop, to be conducted by experimental filmmakers Makino Takashi and Rei Hayami, aims to maximize the participants’ senses of sight and hearing and to help them develop a propensity for improvisation through various cameraless filmmaking techniques and a brief exploration of expanded cinema."
@@ -31,7 +31,7 @@ content:
     - soundtable-2.jpg
     - soundtable-3.jpg
   date: Thursday, October 17
-  venue: "College of 66', Arete, Ateneo de Manila University"
+  venue: "College of 66', Arete (3rd floor), Ateneo de Manila University"
   time: 13:00-16:00
   desc:
     - 'The workshop will begin by examining how non-musical sound captivated artists and
