@@ -33,7 +33,7 @@ content:
 
     - 'Submission Deadline: Oct 4, 2019'
 -
-  title: GANGAN RESIDENCY
+  title: 'GANGAN SERIES: WORKSHOP LAB'
   class: gangan
   artists:
     - Gangan Series
