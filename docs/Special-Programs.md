@@ -27,9 +27,7 @@ content:
     - Makino Takashi
     - Rei Hayama
     - Tengal
-    - Tad Ermitano
-    - Magyar Tuazon
-    - Jing Garcia
+    - The Children of Cathode Ray
     - Ken Furudate
   images:
     - gangan-01.jpg
@@ -43,7 +41,7 @@ content:
 
     - 'Exploring the material dimensions of 16mm film, and its infinite possibilities, Makino Takashi and Rei Hayama will present the collaborative result of a recently-concluded experimental film workshop they conducted. In collaboration with WSK founder Tengal, live improvisational music and performances will augment and interact with the projected filmic output producing a highly sensorial event featuring the interplay of light, motion, bodies, and electronics.'
 
-    - 'Performing a new piece is one of Manila’s earliest and most trailblazing experimental media art groups: The Children of Cathode Ray. Established in 1989, three of the group’s original core members — Tad Ermitaño, Magyar Tuazon, and Jing Garcia — will work with an arsenal of obsolete technology. A Cathode Ray piece might have radios and 4-second cassette-tape loops feeding into a mix filled with drums and electronic percussion, effected guitars, synthesized pads, vintage gears and passionate raving in an invented language, which would in turn be augmented visually by video feedback, projections of exposed Super-8 abraded with a variety of kitchen implements, or VHS spliced on a pair of consumer VCRs. The Children of Cathode Ray created the sound of the future, yesterday.'
+    - 'Performing a new piece is one of Manila’s earliest and most trailblazing experimental media art groups: The Children of Cathode Ray. Established in 1989, three of the group’s original core members — Tad Ermitaño, Magyar Tuason, and Jing Garcia — will work with an arsenal of obsolete technology. A Cathode Ray piece might have radios and 4-second cassette-tape loops feeding into a mix filled with drums and electronic percussion, effected guitars, synthesized pads, vintage gears and passionate raving in an invented language, which would in turn be augmented visually by video feedback, projections of exposed Super-8 abraded with a variety of kitchen implements, or VHS spliced on a pair of consumer VCRs. The Children of Cathode Ray created the sound of the future, yesterday.'
 
     - 'Lastly, Ken Furudate will provide a mesmerizing audiovisual performance wholly generated through digital means. Deeply influenced by minimalist aesthetics, Furudate concentrates on the simplest elements such as sine waves, pulses, dots, lines, and loop functions, and scales them up to states of overwhelming complexity, at times featuring smooth and transfixing moiré-fringed vortices and subtly-oscillating washes of spectral noise.'
 -
