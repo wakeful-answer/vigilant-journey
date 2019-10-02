@@ -42,7 +42,7 @@ content:
   venue: XX XX
   desc:
     - "A celebration of Manila’s uniquely exhilarating rave culture, ELEPHANT is the mise-en-scène of latex pop energy where Manila’s oddballs come to play every week. It is a party where the colorful and outrageous collide in a space that proudly welcomes it. Here, people coalesce under piercing strobe lights dancing for the right to unadulterated self-expression. Carving out a space of their own, where one could freely experiment, ELEPHANT explores the various ways one can be free. For this program, WSK collaborates with ELEPHANT to present WSK X ELEPHANT, a night of dark dance tracks, pounding techno, grind-gabber amalgamations and other polystylistic concoctions, glitchy projections, and a special hypersexual performance involving basketball, videoke, and kwek-kwek."
-    - 'Featuring: Cedrik Fermont, Dignos x Adrianne, .G/FK/DS, Gabber Modus Operandi, Peter Kirn, Pisitakun and a “A Bwakeoke Night Performance” from Madam Bwakeva and extreme.meth.in.my.bloodstream (with special participation of Bwakeboyz)'
+    - 'Featuring: Cedrik Fermont, Dignos x Adrianne, .G/FK/DS, Gabber Modus Operandi, Peter Kirn, Pisitakun and “A Bwakeoke Night Performance” from Madam Bwakeva and extreme.meth.in.my.bloodstream (with special participation of Bwakeboyz)'
 -
   title: "TORTURE GARDEN: WSK x NOISEBATH PH"
   class: torture
