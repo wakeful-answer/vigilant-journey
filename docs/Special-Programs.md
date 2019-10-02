@@ -27,6 +27,10 @@ content:
     - Makino Takashi
     - Rei Hayama
     - Tengal
+    - Tad Ermitano
+    - Magyar Tuazon
+    - Jing Garcia
+    - Ken Furudate
   images:
     - gangan-01.jpg
   date: Thursday, October 24
@@ -93,10 +97,6 @@ content:
     - mizutama
     - Kayu Nakada
     - Tadashi Yonago
-    - Tad Ermitano
-    - Magyar Tuazon
-    - Jing Garcia
-    - Ken Furudate
   class: parade
   images:
     - parade.jpg
