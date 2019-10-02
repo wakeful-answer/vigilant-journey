@@ -110,7 +110,7 @@ content:
   desc:
     - "CLUB NIGHT: VISTRAX CONCERT showcases some of the most cutting-edge and exciting electronic musicians and DJs from Iloilo, Cebu, Roxas City, and other areas in the Visayas region performing alongside some of Manila’s most outré and left-field artists in a retro resto-bar in the heart of the bustling neighborhood of Poblacion. A show of dark industrial, minimal techno, ambient, and noise acts concurrent with the launch of the VISTRAX album, a new anthology of experimental music in the Visayas region, happening a block away at DULO."
 -
-  title: 'SPECTRES'
+  title: 'Festival Closing Concert:​ SPECTRES'
   class: spectres
   artists:
     - Datu Arellano
