@@ -25,6 +25,10 @@ content:
   class: indie
   images:
     - vistrax-launch.jpg
+  links:
+    -
+      title: SIGN-UP
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdJu72Ga0c1vRE3PMhGL9SMI1tdi2KbCtjnhZT6q4iPZmjkbA/viewform?fbclid=IwAR0lP-_0TDgX2te6_tYz0KhGwCyJoa_h_mH2Px4tEfNzu5tka-dOwrWQxQE'
   date: Saturday, October 26
   time: 18:00-00:00
   venue: Dulo (1st floor)
