@@ -18,7 +18,7 @@ content:
   links:
   -
     title: 'SIGN-UP'
-    link: 'bit.ly/applyWSK3D'
+    link: 'https://bit.ly/applyWSK3D'
   time: 14:00-17:30
   desc:
     - "This three-day workshop, to be conducted by experimental filmmakers Makino Takashi and Rei Hayami, aims to maximize the participants’ senses of sight and hearing and to help them develop a propensity for improvisation through various cameraless filmmaking techniques and a brief exploration of expanded cinema."
