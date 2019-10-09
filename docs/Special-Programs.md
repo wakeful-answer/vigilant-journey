@@ -7,7 +7,9 @@ content:
 -
   title: 'PIDGIN CARTOGRAPHY: Experiments on Graphic Notation'
   artists:
-    - Gangan Series
+    - UP Conemus
+    - Ignaz Schick
+    - Gangan Ensemble
   class: gangan-performance
   images:
     - gangan-performance.jpg

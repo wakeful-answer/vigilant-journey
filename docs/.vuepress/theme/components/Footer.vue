@@ -42,6 +42,7 @@
           {title: 'Kwago', img: 'partner-logos-12.svg'},
           {title: 'Green Papaya Art Projects', img: 'partner-logos-13.svg'},
           {title: 'PlayFreely BlackKaji', img: 'partner-logos-14.svg'},
+          {title: 'Los Otros', img: 'partner-logos-15.svg'}
         ]
       }
     }
