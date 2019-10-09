@@ -41,7 +41,7 @@ content:
     - gangan-04.jpg
   date: October 15-21
   time: 13:00-18:00
-  venue: Bank Of Singapore, Arete (3rd Floor), Ateneo de Manila University
+  venue: Bank Of Singapore Co-Lab, Arete (3rd Floor), Ateneo de Manila University
   desc:
     - "The Gangan Series Workshop Lab is an improviser-and-composer workshop which explores the potential of graphic scores and playing in medium-to-large ensembles. Graphic scores, with its emphasis on alternative procedures, introduce many possibilities as they leave more room for the performers’ own interpretations while, despite circumventing the constraints classical notation, allowing composers to structure different sonic parameters (e.g. time, volume, pitch, instrumentation, sonority, etc."
 
