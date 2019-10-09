@@ -15,7 +15,7 @@ content:
     - soundtable.jpg
     - soundtable-2.jpg
     - soundtable-3.jpg
-  date: Thursday, October 17
+  date: Thursday, October 18
   venue: "College of 66', Arete (3rd floor), Ateneo de Manila University"
   time: 13:00-16:00
   desc:
