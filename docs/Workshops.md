@@ -6,6 +6,32 @@ date: 17-23 oct
 layout: Layout
 content:
 -
+  title: '8-Bit Mixtape NEO WSK Special Edition'
+  class: '8bit'
+  images:
+    - 8bit.jpg
+    - 8bit-2.jpg
+  date: Thursday, October 17
+  venue: "College of 66', Arete (3rd floor), Ateneo de Manila University"
+  time: 14:00-17:00
+  links:
+    -
+      title: SIGN-UP
+      link: 'bit.ly/applywsk8bit'
+    -
+      title: MORE INFO
+      link: 'http://neo.8bitmixtape.cc/'
+  desc:
+    - 'Learn to create your own algorithmic 8-bit music in the 8-bit Mixtape Neo: WSK Special Edition Workshop, happening this October 17'
+
+    - 'The event is a workshop open to anyone interested in assembling their own 8Bit Mixtape NEO, a versatile yet straightforward sound generator. Featuring a compact design consisting of two pots, two buttons, and eight addressable RGB neopixels, this tiny synth is powered by the Arduino-compatible ATtiny85 microcontroller making it easily programmable.'
+
+    - '“Mixtapes” shared by other users can be loaded via an audio communication protocol to transform the 8-bit synth into a drum machine, a pitch shifter, an algorithmic music generator, and more.'
+
+    - 'The 8Bit Mixtape NEO was developed in 2017 by dusjagr, ChrisMicro (RoboterClub Freiburg), Budi Prakosa (badgeek/ manticore) and many other contributors. It is the continuation of years of research on lo-fi ATtiny synths of SGMK and Lifepatch since 2012.'
+
+    - 'The 8bit Mixtape Neo Workshop will be held at College ’66 Co-Lab, 3F George SK Ty Learning Innovation Wing, Areté, Ateneo de Manila University, from 2PM-5PM.'
+-
   title: 'SOUNDTABLE: A History of Sound Art'
   class: 'soundtable'
   artists:
@@ -15,7 +41,7 @@ content:
     - soundtable.jpg
     - soundtable-2.jpg
     - soundtable-3.jpg
-  date: Thursday, October 18
+  date: Friday, October 18
   venue: "College of 66', Arete (3rd floor), Ateneo de Manila University"
   time: 13:00-16:00
   desc:
