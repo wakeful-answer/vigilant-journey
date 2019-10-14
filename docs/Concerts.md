@@ -12,6 +12,7 @@ content:
     - Auspicious Family
     - Bruder
     - LAFIDKI
+    - Pisitakun
     - Miko Revereza
     - Y-DRA
   images:
@@ -29,9 +30,9 @@ content:
   artists:
     - Dignos x Adrianne
     - Peter Kirn
-    - Pisitakun
     - Gabber Modus Operandi
-    - 'G/FK/DS'
+    - 'GIFKIDS'
+    - marum
     - Betty Apple
     - 'extreme.meth.in.my.bloodstream'
     - 'Madam Bwakeva and the Bwakeboyz'
@@ -42,7 +43,7 @@ content:
     - "A celebration of Manila’s uniquely exhilarating rave culture, ELEPHANT is the mise-en-scène of latex pop energy where Manila’s oddballs come to play every week. It is a party where the colorful and outrageous collide in a space that proudly welcomes it. Here, people coalesce under piercing strobe lights dancing for the right to unadulterated self-expression. Carving out a space of their own, where one could freely experiment, ELEPHANT explores the various ways one can be free. For this program, WSK collaborates with ELEPHANT to present WSK X ELEPHANT, a night of dark dance tracks, pounding techno, grind-gabber amalgamations and other polystylistic concoctions, glitchy projections, and a special hypersexual performance involving basketball, videoke, and kwek-kwek."
     - 'Featuring: Dignos x Adrianne, .G/FK/DS, Gabber Modus Operandi, Peter Kirn, Betty Apple, Pisitakun and “A Bwakeoke Night Performance” from Madam Bwakeva and extreme.meth.in.my.bloodstream (with special participation of Bwakeboyz)'
 -
-  title: "TORTURE GARDEN: WSK x NOISEBATH PH"
+  title: "TORTURE GARDEN: WSK x NOISEBATH"
   class: torture
   images:
     - torture-garden.jpg
@@ -83,6 +84,8 @@ content:
   artists:
   - Bombo Pluto Ova
   - Elemento
+  - Erick Calilan
+  - Cedrick
   - The Observatory
   date: Saturday, October 26  
   time: 22:00-03:00  
@@ -110,8 +113,7 @@ content:
   class: spectres
   artists:
     - Datu Arellano
-    - Laure Boer and collaborators
-    - Erick Calilan
+    - Laure Boer x Auspicious Family
     - Daisuke Ishida
     - Meuko! Meuko! x NAXS corp.
   images:
@@ -129,6 +131,7 @@ content:
   artists:
     - Bruder
     - Libya Montes
+    - Kasimyn
   date: Sunday, October 27  
   time: 21:30-01:30
   venue: Batala Bar, Intramuros

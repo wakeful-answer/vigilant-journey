@@ -28,8 +28,9 @@ content:
   artists:
     - Makino Takashi
     - Rei Hayama
+    - Joee Mejias
     - Tengal
-    - The Children of Cathode Ray
+    - Children of Cathode Ray
     - Ken Furudate
   images:
     - gangan-01.jpg
