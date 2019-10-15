@@ -105,7 +105,7 @@ content:
     - "13:00-16:00: City Scanning + Submission of Scans"
     - "OCT 24"
     - "13:00-17:00: How to use the 3D models put into the AV set"
-    - "This October 23-27, navigate the cityscape and create a live visual scene with the audio-visual duo Meuko! Meuko! and NAXS corp. by capturing the ghost of vague emotions, the wireless-electric-memories on the streets of Manila, and the appearances of those still roaming in history."
+    - "This October 23-24, navigate the cityscape and create a live visual scene with the audio-visual duo Meuko! Meuko! and NAXS corp. by capturing the ghost of vague emotions, the wireless-electric-memories on the streets of Manila, and the appearances of those still roaming in history."
 
     - "Meuko! Meuko! and NAXS corp. will share their knowledge in GHOST OF THE ROAMING ISLANDS, a 3D scanning and psychogeography event. Participants will be introduced to various concepts and tools before engaging in “city-scanning” Manila. Reinvestigating the cityscape together by roaming around the streets of Manila equipped with smartphones, DSLR cameras or any digital camera, everyone is invited to gather not faithful replicas of reality but ghost images of captured memories."
 
