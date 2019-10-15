@@ -12,7 +12,7 @@ content:
     - 8bit.jpg
     - 8bit-2.jpg
   date: Thursday, October 17
-  venue: "College of 66', Arete (3rd floor), Ateneo de Manila University"
+  venue: "College of 79' Creative Collaborative Room, Arete (3rd floor), Ateneo de Manila University"
   time: 14:00-17:00
   links:
     -
@@ -42,8 +42,8 @@ content:
     - soundtable-2.jpg
     - soundtable-3.jpg
   date: Friday, October 18
-  venue: "College of 66', Arete (3rd floor), Ateneo de Manila University"
-  time: 13:00-16:00
+  venue: "College of 79' Creative Collaborative Room, Arete (3rd floor), Ateneo de Manila University"
+  time: 13:00-17:00
   links:
     -
       title: SIGN-UP
@@ -77,7 +77,7 @@ content:
   -
     title: 'SIGN-UP'
     link: 'https://bit.ly/applyWSK3D'
-  time: 14:00-17:30
+  time: 14:00-17:00
   desc:
     - "This three-day workshop, to be conducted by experimental filmmakers Makino Takashi and Rei Hayami, aims to maximize the participants’ senses of sight and hearing and to help them develop a propensity for improvisation through various cameraless filmmaking techniques and a brief exploration of expanded cinema."
     - "Throughout the workshop, a series of lectures and exercises pertaining to soundscape visualization, collage-making in the context of film production, stereoscopy, and live performance. Participants will learn how to creatively render natural acoustic phenomena via pen and paper, to apply 3D stereoscopy to film, to manipulate 16mm film — both image and sound — using different materials and techniques, and ultimately, to work with different media and concepts, translating information through a series of artistic processes."
@@ -90,7 +90,7 @@ content:
     - NAXS corp
   images:
     - ghosts.jpg
-  date: October 23-27
+  date: October 23-24
   venue: "Bank of Singapore Co-Lab, Arete (3rd floor), Ateneo de Manila University"
   links:
   -

@@ -2,13 +2,13 @@
 programPage: true
 title: exhibition
 class: exhibition
-date: 15-28 oct
+date: 15-27 oct
 layout: Layout
 content:
 -
   title: The SINE WAVE ORCHESTRA stay
   class: sine-wave
-  date: OCTOBER 15-28
+  date: OCTOBER 15-27
   venue: 'Doreen Black Box, Arete, Ateneo de Manila University'
   time: '16:30 Press Preview | 18:00 Vernissage'
   artists:
