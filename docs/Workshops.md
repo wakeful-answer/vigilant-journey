@@ -47,7 +47,7 @@ content:
   links:
     -
       title: SIGN-UP
-      link: 'bit.ly/applySound'
+      link: 'https://bit.ly/applySound'
   desc:
     - 'The workshop will begin by examining how non-musical sound captivated artists and
       composers alike at different moments over the last 100 years, from Luigi Russolo’s pre-World
