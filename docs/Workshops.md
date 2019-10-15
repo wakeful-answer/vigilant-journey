@@ -44,6 +44,10 @@ content:
   date: Friday, October 18
   venue: "College of 66', Arete (3rd floor), Ateneo de Manila University"
   time: 13:00-16:00
+  links:
+    -
+      title: SIGN-UP
+      link: 'bit.ly/applySound'
   desc:
     - 'The workshop will begin by examining how non-musical sound captivated artists and
       composers alike at different moments over the last 100 years, from Luigi Russolo’s pre-World
