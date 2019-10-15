@@ -17,7 +17,7 @@ content:
   links:
     -
       title: SIGN-UP
-      link: 'bit.ly/applywsk8bit'
+      link: 'https://bit.ly/applywsk8bit'
     -
       title: MORE INFO
       link: 'http://neo.8bitmixtape.cc/'
