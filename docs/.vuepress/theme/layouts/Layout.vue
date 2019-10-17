@@ -80,6 +80,7 @@
         </div>
       </div>
       <Content/>
+      <TimeTable v-if="this.$page.frontmatter.title == 'schedule'" />
       <div class="venues-container" v-if="this.$page.frontmatter.title == 'venues'">
         <div class="google-maps-embed">
           <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1tJF0UhsCjFdpeLkJecfToCkgt7Xi11t5" height="480"></iframe>
@@ -113,8 +114,9 @@ import * as Fragment from '../fragmentshader';
 import Nav from "@theme/components/Nav";
 import Footer from "@theme/components/Footer";
 import Slider from "@theme/components/Slider";
+import TimeTable from "@theme/components/TimeTable";
 export default {
-  components: { Nav, Footer, Slider },
+  components: { Nav, Footer, Slider, TimeTable },
   name: "Layout",
   data() {
     return {
@@ -275,7 +277,7 @@ export default {
 
       let time = Date.now() * 0.0035;
 
-      this.mesh.rotation.y = 0.05 * time;
+      this.mesh.rotation.y = 0.08 * time;
 
       for ( let i = 0; i < this.glTFGeometry.attributes.position.count; i ++ ) {
 
@@ -352,17 +354,17 @@ export default {
       let colorObject = new THREE.Color( colorChoices[Math.floor(Math.random() * colorChoices.length)] );
       this.shaderMaterial.uniforms.customColor.value = [colorObject.r,colorObject.b,colorObject.g];
       // shaderMaterial.uniforms.frequency.value = Math.random() * 60;
-      this.conf.particleSize = this.getRandomArbitrary(0.5,2);
-      this.conf.dispersionSpeed = this.getRandomArbitrary(0,0.01);
+      this.conf.particleSize = this.getRandomArbitrary(1,4);
+      this.conf.dispersionSpeed = this.getRandomArbitrary(0.005,0.01);
       this.conf.textureRotationSpeed = this.getRandomArbitrary(0,10);
       this.conf.textureXDistort = this.getRandomArbitrary(0,0.1);
       this.conf.textureYDistort = this.getRandomArbitrary(0,0.1);
-      this.conf.distortFrequency = this.getRandomArbitrary(0,10);
+      this.conf.distortFrequency = this.getRandomArbitrary(0,5);
 
       // for (let i = 0; i < this.gui.__controllers.length; i++) {
       //   this.gui.__controllers[i].updateDisplay();
       // }
-    }.bind(this), 3000);
+    }.bind(this), 2000);
 
   },
   // handleScroll (event) {

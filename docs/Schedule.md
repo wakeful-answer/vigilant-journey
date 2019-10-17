@@ -5,8 +5,6 @@ layout: Layout
 
 <div style="text-align: center">
 
-Timetable coming soon.  
-
-Please see Programs for list of events and dates.
+Please see Programs for a detailed list of events and dates.
 
 </div>
