@@ -69,7 +69,7 @@ export default {
           date: 'OCT 23-24',
           time: '13:00-18:00',
           title: 'Ghost of the Roaming Islands: From 3D Scanned Memories to Live Audio-Visual',
-          venue: 'Bank of Singapore Co-lab, 3F George Sk Ty Learning Innovation Wing, Areté, Ateneo de Manila University'
+          venue: 'Bank of Singapore Co-lab, Areté, Ateneo de Manila University'
         },
         {
           date: 'OCT 22-24',
