@@ -134,7 +134,7 @@ content:
     - Kasimyn
   date: Sunday, October 27  
   time: 21:30-01:30
-  venue: Batala Bar, Intramuros
+  venue: Casa Manila, Intramuros
   desc:
     - WSK caps off its 10th year anniversary festival, bidding farewell to a decade of debauchery and godlessness before its hibernation and reformatting, with an open party featuring DJ performances from Bruder and Libya Montes whose styles encompass Berlin-style techno, harsh noise, and budots.
 
