@@ -25,7 +25,7 @@ export default {
       eventList: [
         {
           date: 'OCT 15-27',
-          time: '18:00 Vernissage',
+          time: '18:00',
           title: 'Exhibition: “Stay” (2017): an interactive sound exhibition by Sine Wave Orchestra (JP)',
           venue: 'Doreen Blackbox, Areté, Ateneo de Manila University'
         },
