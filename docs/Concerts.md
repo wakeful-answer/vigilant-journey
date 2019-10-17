@@ -73,7 +73,7 @@ content:
     - poltergeist.jpg
   date: Friday, October 25
   time: 22:00-00:00  
-  venue: Ruins
+  venue: Ruins, Poblacion
   desc:
     - 'In the remains of a burned down ancestral house, abandoned until its recent repurposing, creaking floorboards and harsh echoes bouncing off thick concrete walls are swallowed by otherworldly tones, glacial glissandos, and atonal shrieks. They bleed into each other, ebbing and flowing, as eight musicians — of distinct backgrounds and divergent sensibilities — continue to speak in tongues, slip in and out of time, volume, and idioms, and divine phantasmic textures from electro-acoustic mediums. Lurking from different parts of the dilapidated space, this cracked and scattered octet emits crackling static and shimmering skronks, tone clusters and sound masses, as each musician follows their own psychic streams, communally taking part in this suburban disturbance.'
 -
