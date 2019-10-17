@@ -171,7 +171,7 @@ export default {
           date: 'OCT 27',
           time: '18:00-22:30',
           title: 'Festival Closing Concert: SPECTRES',
-          venue: 'Rajah Sulayman theater, Intramuros'
+          venue: 'Rajah Sulayman Theater, Intramuros'
         },
         {
           date: 'OCT 27',
