@@ -73,7 +73,7 @@ export default {
         },
         {
           date: 'OCT 22-24',
-          time: 'Panel 1: 13:30-15:00 | Panel 2: 15:30-17:00',
+          time: 'Panel 1: 13:30-15:00  Panel 2: 15:30-17:00',
           title: 'Symposium: FEEDBACK FORUM 2019',
           venue: 'Benchan Art Suite, Areté, Ateneo de Manila University'
         },
